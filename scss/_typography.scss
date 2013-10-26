@@ -1,0 +1,36 @@
+body{
+  font:{
+    family: $font-hw;
+    weight: $font-regular;
+    size: $font-base;
+  }
+  line-height: $line-height;
+  color: $color-l-grey;
+}
+
+a{
+  &.add-link{
+      line-height: 30px;
+      font:{
+        size: $font-10-14;
+        family: $font-arial;
+      }
+      padding-left: 10px;
+      margin-right: 10px;
+      position: relative;
+      color: $color-add-l;
+      text:{
+        decoration: none;
+        transform: uppercase;
+      }
+      
+      &:before{
+        display: block;
+        left: 0;
+        top: 2px;
+        content: "";
+        position: absolute;
+      }
+    }
+}
+

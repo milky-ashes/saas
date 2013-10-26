@@ -1,0 +1,59 @@
+// base layout and helper classes
+*{
+  @include box-sizing(border-box);
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+}
+
+.clearfix:after{
+  clear: both;
+  display: block;
+  content: "";
+}
+
+html {
+  height: 100%;
+} 
+ 
+body {  
+ min-height: 100%;  
+ position: relative; 
+ background: url(../img/noise.png) 0 0 $bg-main;  
+ overflow-x: hidden;
+}  
+
+#wrapper {  
+ padding-bottom: $height-footer + 30;  
+
+}  
+
+.container{
+  width: $width-main;
+  margin: 0 auto;
+}
+
+.content-part{
+  position: relative;
+  padding-top: 30px;
+  
+  &:before{
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    content: "";
+    @include gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.15));
+  }
+}
+
+.inner-content{
+  position: relative;
+}

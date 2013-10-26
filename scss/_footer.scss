@@ -1,0 +1,55 @@
+#footer {  
+ position: absolute;  
+ bottom: 0;  
+ height: $height-footer;  
+ width: 100%;
+ left: 0;
+ background: $bg-footer;
+ border-top: 1px solid $border-footer;
+ font:{
+   size: $font-10;
+   family: $font-arial;
+ }
+ color: $color-footer;
+ line-height: $height-footer - 1; 
+ 
+ &:before{
+    display: block;
+    height: 3px;
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    content: "";
+    @include gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.15));
+  }
+ 
+ .footer-menu{
+   
+   li{
+     display: inline;
+     margin: 0 3px 0 -2px;
+     
+     &:after{
+       display: inline;
+       content: "/";
+       color: #222222;
+     }
+     
+     &:last-child::after{
+       display: none;
+     }
+     
+     a{
+       text:{
+         transform: uppercase;
+         decoration: none;         
+       }
+       font:{
+         family: $font-hw;
+       }
+       color: $color-footer;
+     }
+   }
+ }
+}

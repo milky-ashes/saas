@@ -1,0 +1,1820 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@font-face {
+  font-family: "HelveticaWorld";
+  src: url('fonts/helvetica_world.eot');
+  src: url('fonts/helvetica_world.eot?#iefix') format('eot'), url('fonts/helvetica_world.ttf') format('truetype');
+}
+
+/* line 17, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 1, ../scss/_typography.scss */
+body {
+  font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: 1.333em;
+  color: #9f9f9f;
+}
+
+/* line 12, ../scss/_typography.scss */
+a.add-link {
+  line-height: 30px;
+  font-size: 0.845em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  color: #a5a5a5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 27, ../scss/_typography.scss */
+a.add-link:before {
+  display: block;
+  left: 0;
+  top: 2px;
+  content: "";
+  position: absolute;
+}
+
+/* line 346, icon/*.png */
+.icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .task-b-1 span.check:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a span.all:after, a.icon-people.active, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash {
+  background: url('../img/icon-s30996b8565.png') no-repeat;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-all {
+  background-position: 0 -50px;
+  height: 14px;
+  width: 22px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-arrow-d {
+  background-position: -16px -14px;
+  height: 5px;
+  width: 8px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-arrow-p {
+  background-position: -52px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-arrow {
+  background-position: -8px -14px;
+  height: 3px;
+  width: 8px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-check-g {
+  background-position: 0 -28px;
+  height: 10px;
+  width: 10px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-check-w {
+  background-position: -66px -14px;
+  height: 10px;
+  width: 10px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-clock {
+  background-position: -38px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-d-1-1 {
+  background-position: -78px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-d-1-2 {
+  background-position: -15px 0;
+  height: 14px;
+  width: 15px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-d-1-3 {
+  background-position: -110px 0;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-d-1-4 {
+  background-position: -100px 0;
+  height: 14px;
+  width: 10px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-d-1-5 {
+  background-position: -44px 0;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-d-1-6 {
+  background-position: -66px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-dot {
+  background-position: -24px -14px;
+  height: 6px;
+  width: 6px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-download-a {
+  background-position: -36px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-download {
+  background-position: -30px 0;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-eye-g {
+  background-position: 0 0;
+  height: 14px;
+  width: 15px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-eye {
+  background-position: -52px -14px;
+  height: 10px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-i-1 {
+  background-position: -94px -28px;
+  height: 22px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-logo {
+  background-position: 0 -64px;
+  height: 24px;
+  width: 125px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-minus {
+  background-position: 0 -14px;
+  height: 2px;
+  width: 8px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-note-b-a {
+  background-position: -100px -14px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-note-b {
+  background-position: -22px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-note-s {
+  background-position: -30px -14px;
+  height: 7px;
+  width: 7px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-people-g {
+  background-position: -50px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-people {
+  background-position: -64px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-plus {
+  background-position: -44px -14px;
+  height: 8px;
+  width: 8px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-search {
+  background-position: -92px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-tab-a {
+  background-position: -21px -88px;
+  height: 30px;
+  width: 20px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-tab {
+  background-position: 0 -88px;
+  height: 30px;
+  width: 21px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-task-b-a {
+  background-position: -88px -14px;
+  height: 11px;
+  width: 12px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-task-b {
+  background-position: -76px -14px;
+  height: 11px;
+  width: 12px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-task-s {
+  background-position: -37px -14px;
+  height: 7px;
+  width: 7px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-tool-1 {
+  background-position: -86px 0;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-tool-2 {
+  background-position: -24px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-tool-3 {
+  background-position: -10px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-tool {
+  background-position: -72px 0;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-trash-l {
+  background-position: -58px 0;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-trash {
+  background-position: -80px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 6, ../scss/_sprite.scss */
+a.enter-top:after {
+  background-position: -16px -14px;
+  height: 5px;
+  width: 8px;
+}
+
+/* line 10, ../scss/_sprite.scss */
+a.project-top:after {
+  background-position: -94px -28px;
+  height: 22px;
+  width: 14px;
+}
+
+/* line 16, ../scss/_sprite.scss */
+a.tabs-link.t-link:before {
+  background-position: -88px -14px;
+  height: 11px;
+  width: 12px;
+}
+/* line 19, ../scss/_sprite.scss */
+a.tabs-link.t-link:after {
+  background-position: -21px -88px;
+  height: 30px;
+  width: 20px;
+}
+/* line 25, ../scss/_sprite.scss */
+a.tabs-link.n-link:before {
+  background-position: -22px -50px;
+  height: 14px;
+  width: 14px;
+}
+/* line 28, ../scss/_sprite.scss */
+a.tabs-link.n-link:after {
+  background-position: 0 -88px;
+  height: 30px;
+  width: 21px;
+}
+
+/* line 35, ../scss/_sprite.scss */
+a.add-link.add-t:before {
+  background-position: -37px -14px;
+  height: 7px;
+  width: 7px;
+}
+/* line 39, ../scss/_sprite.scss */
+a.add-link.add-n:before {
+  background-position: -30px -14px;
+  height: 7px;
+  width: 7px;
+}
+
+/* line 44, ../scss/_sprite.scss */
+.user-block:after {
+  background-position: -8px -14px;
+  height: 3px;
+  width: 8px;
+}
+
+/* line 51, ../scss/_sprite.scss */
+ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool {
+  background-position: -86px 0;
+  height: 14px;
+  width: 14px;
+}
+/* line 54, ../scss/_sprite.scss */
+ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover {
+  background-position: -24px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 62, ../scss/_sprite.scss */
+a.icon-tool:hover {
+  background-position: -24px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 66, ../scss/_sprite.scss */
+.closed a.icon-tool {
+  background-position: -10px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 71, ../scss/_sprite.scss */
+.task-b-1 span.minus:after {
+  background-position: 0 -14px;
+  height: 2px;
+  width: 8px;
+  top: 7px;
+}
+/* line 75, ../scss/_sprite.scss */
+.task-b-1 span.plus:after {
+  background-position: -44px -14px;
+  height: 8px;
+  width: 8px;
+}
+/* line 78, ../scss/_sprite.scss */
+.task-b-1 span.check:after {
+  background-position: 0 -28px;
+  height: 10px;
+  width: 10px;
+  top: 2px;
+  left: 2px;
+}
+
+/* line 86, ../scss/_sprite.scss */
+.closed .task-b-1 span.check:after {
+  background-position: -66px -14px;
+  height: 10px;
+  width: 10px;
+}
+
+/* line 91, ../scss/_sprite.scss */
+ul.menu-list li a.item-1:before {
+  background-position: -78px -50px;
+  height: 14px;
+  width: 14px;
+}
+/* line 94, ../scss/_sprite.scss */
+ul.menu-list li a.item-2:before {
+  background-position: -15px 0;
+  height: 14px;
+  width: 15px;
+}
+/* line 97, ../scss/_sprite.scss */
+ul.menu-list li a.item-3:before {
+  background-position: -110px 0;
+  height: 14px;
+  width: 14px;
+}
+/* line 100, ../scss/_sprite.scss */
+ul.menu-list li a.item-4:before {
+  background-position: -100px 0;
+  height: 14px;
+  width: 10px;
+}
+/* line 103, ../scss/_sprite.scss */
+ul.menu-list li a.item-5:before {
+  background-position: -44px 0;
+  height: 14px;
+  width: 14px;
+}
+/* line 106, ../scss/_sprite.scss */
+ul.menu-list li a.item-6:before {
+  background-position: -66px -28px;
+  height: 14px;
+  width: 14px;
+}
+/* line 109, ../scss/_sprite.scss */
+ul.menu-list li a.item-7:before {
+  background-position: -38px -28px;
+  height: 14px;
+  width: 14px;
+}
+/* line 112, ../scss/_sprite.scss */
+ul.menu-list li a.item-8:before {
+  background-position: -80px -28px;
+  height: 14px;
+  width: 14px;
+}
+/* line 115, ../scss/_sprite.scss */
+ul.menu-list li a.item-9:before {
+  background-position: -52px -28px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 120, ../scss/_sprite.scss */
+a.icon-eye.active {
+  background-position: 0 0;
+  height: 14px;
+  width: 15px;
+  position: relative;
+  top: -2px;
+  margin-bottom: -4px;
+}
+
+/* line 127, ../scss/_sprite.scss */
+a.icon-download.active {
+  background-position: -36px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 131, ../scss/_sprite.scss */
+a span.all:after {
+  background-position: 0 -50px;
+  height: 14px;
+  width: 22px;
+}
+
+/* line 135, ../scss/_sprite.scss */
+a.icon-people.active {
+  background-position: -50px -50px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 141, ../scss/_sprite.scss */
+.notes-list li .status {
+  background-position: -24px -14px;
+  height: 6px;
+  width: 6px;
+}
+/* line 147, ../scss/_sprite.scss */
+.notes-list li.with-child > .wsc_note .status {
+  background-position: -44px -14px;
+  height: 8px;
+  width: 8px;
+  top: 13px;
+}
+/* line 156, ../scss/_sprite.scss */
+.notes-list li.with-child.open > .wsc_note .status {
+  background-position: 0 -14px;
+  height: 2px;
+  width: 8px;
+  top: 16px;
+}
+/* line 163, ../scss/_sprite.scss */
+.notes-list li .icon-trash {
+  background-position: -58px 0;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 2, ../scss/_layout.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 6, ../scss/_layout.scss */
+.left {
+  float: left;
+}
+
+/* line 10, ../scss/_layout.scss */
+.right {
+  float: right;
+}
+
+/* line 14, ../scss/_layout.scss */
+.clearfix:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+/* line 20, ../scss/_layout.scss */
+html {
+  height: 100%;
+}
+
+/* line 24, ../scss/_layout.scss */
+body {
+  min-height: 100%;
+  position: relative;
+  background: url(../img/noise.png) 0 0 whitesmoke;
+  overflow-x: hidden;
+}
+
+/* line 31, ../scss/_layout.scss */
+#wrapper {
+  padding-bottom: 80px;
+}
+
+/* line 36, ../scss/_layout.scss */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 41, ../scss/_layout.scss */
+.content-part {
+  position: relative;
+  padding-top: 30px;
+}
+/* line 45, ../scss/_layout.scss */
+.content-part:before {
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  content: "";
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+}
+
+/* line 57, ../scss/_layout.scss */
+.inner-content {
+  position: relative;
+}
+
+/* line 1, ../scss/_header.scss */
+header#header {
+  margin: 1px 0;
+  position: relative;
+  height: 50px;
+  border-bottom: 2px solid #2b3338;
+  background: -moz-linear-gradient(#3d464c, #313a3f);
+  background: -webkit-linear-gradient(#3d464c, #313a3f);
+  background: -o-linear-gradient(#3d464c, #313a3f);
+  background: -ms-linear-gradient(#3d464c, #313a3f);
+  background: linear-gradient(#3d464c, #313a3f);
+}
+/* line 8, ../scss/_header.scss */
+header#header:after, header#header:before {
+  display: block;
+  height: 1px;
+  width: 100%;
+  content: "";
+  left: 0;
+  position: absolute;
+}
+/* line 17, ../scss/_header.scss */
+header#header:before {
+  top: -1px;
+  background: url(../img/border.png) 0 0 transparent repeat-x;
+}
+/* line 22, ../scss/_header.scss */
+header#header:after {
+  bottom: -3px;
+  background: url(../img/border-b.png) 0 0 transparent repeat-x;
+}
+/* line 28, ../scss/_header.scss */
+header#header .logo h1, header#header .logo a {
+  color: transparent;
+}
+/* line 31, ../scss/_header.scss */
+header#header .logo h1 span, header#header .logo a span {
+  display: block;
+  margin-top: 14px;
+}
+/* line 39, ../scss/_header.scss */
+header#header .r-block > div {
+  border-right: 1px solid #394147;
+  position: relative;
+  height: 48px;
+  padding: 0 20px;
+  line-height: 48px;
+}
+/* line 46, ../scss/_header.scss */
+header#header .r-block > div span, header#header .r-block > div a {
+  color: #92a0a9;
+  font-size: 1em;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+}
+/* line 58, ../scss/_header.scss */
+header#header .r-block > div:after {
+  display: block;
+  height: 100%;
+  width: 1px;
+  content: "";
+  right: -2px;
+  top: 0;
+  position: absolute;
+  background: #454e53;
+}
+/* line 70, ../scss/_header.scss */
+header#header .r-block .search-block {
+  position: relative;
+}
+/* line 73, ../scss/_header.scss */
+header#header .r-block .search-block input[type=text] {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  height: 24px;
+  width: 180px;
+  background: #2f373c;
+  height: 24px;
+  padding: 0 25px 0 10px;
+  border: none;
+  -webkit-box-shadow: inset 0 1px 1px #2b3338;
+  -moz-box-shadow: inset 0 1px 1px #2b3338;
+  box-shadow: inset 0 1px 1px #2b3338;
+  font-size: 0.845em;
+  font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
+  color: #f1f1f1;
+}
+/* line 88, ../scss/_header.scss */
+header#header .r-block .search-block input[type=text]:-moz-placeholder {
+  color: #a5a5a5;
+}
+/* line 92, ../scss/_header.scss */
+header#header .r-block .search-block input[type=text]::-moz-placeholder {
+  color: #a5a5a5;
+}
+/* line 96, ../scss/_header.scss */
+header#header .r-block .search-block input[type=text]::-webkit-input-placeholder {
+  color: #a5a5a5;
+}
+/* line 100, ../scss/_header.scss */
+header#header .r-block .search-block input[type=text]:-ms-input-placeholder {
+  color: #a5a5a5;
+}
+/* line 105, ../scss/_header.scss */
+header#header .r-block .search-block input[type=submit] {
+  position: absolute;
+  right: 25px;
+  top: 18px;
+  border: none;
+}
+/* line 115, ../scss/_header.scss */
+header#header .r-block .enter-block img {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding-right: 15px;
+  position: relative;
+  top: 10px;
+}
+/* line 122, ../scss/_header.scss */
+header#header .r-block .enter-block a.enter-top {
+  position: relative;
+  padding-right: 23px;
+}
+/* line 126, ../scss/_header.scss */
+header#header .r-block .enter-block a.enter-top:after {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  content: "";
+}
+/* line 135, ../scss/_header.scss */
+header#header .r-block .enter-block ul.menu-list {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  width: 150px;
+  z-index: 100;
+  background: #2f373c;
+  overflow: hidden;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 145, ../scss/_header.scss */
+header#header .r-block .enter-block ul.menu-list.hide {
+  height: 0 !important;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 150, ../scss/_header.scss */
+header#header .r-block .enter-block ul.menu-list li {
+  display: block;
+  position: relative;
+}
+/* line 154, ../scss/_header.scss */
+header#header .r-block .enter-block ul.menu-list li:after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.15);
+}
+/* line 165, ../scss/_header.scss */
+header#header .r-block .enter-block ul.menu-list li a {
+  display: block;
+  height: 41px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+  padding-left: 10px;
+  font-size: 0.845em;
+  color: #616c73;
+  border-left: 40px solid #2a3136;
+  position: relative;
+}
+/* line 182, ../scss/_header.scss */
+header#header .r-block .enter-block ul.menu-list li a:before {
+  display: block;
+  content: "";
+  top: 13px;
+  left: -25px;
+  position: absolute;
+}
+/* line 190, ../scss/_header.scss */
+header#header .r-block .enter-block ul.menu-list li a:hover {
+  color: #4abba4;
+}
+
+/* line 1, ../scss/_project-zone.scss */
+.project-zone {
+  background: url(../img/project-bg.jpg) 50% 0 transparent no-repeat;
+  height: 84px;
+}
+/* line 5, ../scss/_project-zone.scss */
+.project-zone .project-name {
+  padding-top: 30px;
+  position: relative;
+}
+/* line 9, ../scss/_project-zone.scss */
+.project-zone .project-name a.project-top {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.917em;
+  font-weight: 300;
+  color: #f1f1f1;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  padding-right: 24px;
+  position: relative;
+}
+/* line 23, ../scss/_project-zone.scss */
+.project-zone .project-name a.project-top:after {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  content: "";
+}
+/* line 33, ../scss/_project-zone.scss */
+.project-zone nav.project-nav {
+  padding-top: 30px;
+}
+/* line 35, ../scss/_project-zone.scss */
+.project-zone nav.project-nav ul {
+  overflow: hidden;
+}
+/* line 38, ../scss/_project-zone.scss */
+.project-zone nav.project-nav ul li {
+  display: block;
+  float: left;
+  padding: 0 15px;
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+}
+/* line 46, ../scss/_project-zone.scss */
+.project-zone nav.project-nav ul li:after {
+  display: block;
+  width: 0;
+  height: 20px;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-right: 1px solid #ffffff;
+  border-left: 1px solid #000000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=5);
+  opacity: 0.05;
+}
+/* line 59, ../scss/_project-zone.scss */
+.project-zone nav.project-nav ul li:last-child {
+  padding-right: 0;
+}
+/* line 62, ../scss/_project-zone.scss */
+.project-zone nav.project-nav ul li:last-child::after {
+  display: none;
+}
+/* line 70, ../scss/_project-zone.scss */
+.project-zone nav.project-nav a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.917em;
+  font-weight: 700;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 83, ../scss/_project-zone.scss */
+.project-zone nav.project-nav a:hover, .project-zone nav.project-nav a.active {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* line 89, ../scss/_project-zone.scss */
+.project-zone .menu-list {
+  position: absolute;
+  right: -158px;
+  width: 154px;
+  z-index: 100;
+  top: 20px;
+  overflow: hidden;
+  height: auto;
+  padding-left: 4px;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 100, ../scss/_project-zone.scss */
+.project-zone .menu-list.hide {
+  height: 0 !important;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 105, ../scss/_project-zone.scss */
+.project-zone .menu-list:after {
+  border-bottom: 4px outset transparent;
+  border-right: 4px solid #2f373c;
+  border-top: 4px outset transparent;
+  border-left: 4px outset transparent;
+  height: 0;
+  width: 0;
+  display: block;
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 17px;
+}
+/* line 111, ../scss/_project-zone.scss */
+.project-zone .menu-list li {
+  display: block;
+  border-bottom: 1px solid #2a3135;
+  background: #2f373c;
+}
+/* line 115, ../scss/_project-zone.scss */
+.project-zone .menu-list li:first-child {
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  -ms-border-radius: 2px 2px 0 0;
+  -o-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+}
+/* line 118, ../scss/_project-zone.scss */
+.project-zone .menu-list li:last-child {
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  -ms-border-radius: 0 0 2px 2px;
+  -o-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+  margin-bottom: 1px;
+}
+/* line 123, ../scss/_project-zone.scss */
+.project-zone .menu-list li a {
+  display: block;
+  padding: 15px 20px;
+  line-height: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+  font-size: 0.833em;
+  color: #616c73;
+}
+/* line 137, ../scss/_project-zone.scss */
+.project-zone .menu-list li a:hover {
+  color: #4abba4;
+}
+
+/* line 2, ../scss/_tabs.scss */
+.tabs-nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  z-index: 1;
+}
+/* line 9, ../scss/_tabs.scss */
+.tabs-nav a.tabs-link {
+  display: block;
+  color: #b1af9d;
+  font-size: 1.417em;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  border: 1px solid #e0e0e0;
+  -webkit-border-radius: 3px 0 0 0;
+  -moz-border-radius: 3px 0 0 0;
+  -ms-border-radius: 3px 0 0 0;
+  -o-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  padding: 0 20px 0 30px;
+  position: relative;
+}
+/* line 25, ../scss/_tabs.scss */
+.tabs-nav a.tabs-link:after {
+  display: block;
+  right: 0;
+  top: 0;
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: -20px;
+}
+/* line 35, ../scss/_tabs.scss */
+.tabs-nav a.tabs-link.active {
+  z-index: 10;
+}
+/* line 40, ../scss/_tabs.scss */
+.tabs-nav a.tabs-link:before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+/* line 48, ../scss/_tabs.scss */
+.tabs-nav a.tabs-link.t-link {
+  background: #f7f7f7;
+  color: #6d6d6d;
+}
+/* line 53, ../scss/_tabs.scss */
+.tabs-nav a.tabs-link.n-link {
+  margin-right: 40px;
+  background: #f9f5d3;
+}
+
+/* line 60, ../scss/_tabs.scss */
+.tabs-content {
+  background: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  margin-top: -1px;
+}
+/* line 66, ../scss/_tabs.scss */
+.tabs-content .tab {
+  display: none;
+}
+/* line 69, ../scss/_tabs.scss */
+.tabs-content .tab.active {
+  display: block;
+  width: 100%;
+}
+
+/* line 76, ../scss/_tabs.scss */
+.tab-footer {
+  padding: 3px 55px;
+  height: auto;
+  border-top: 1px solid #e0e0e0;
+  background: #f7f7f7;
+}
+/* line 82, ../scss/_tabs.scss */
+.tab-footer a {
+  line-height: 1em;
+}
+
+/* line 3, ../scss/_task_list.scss */
+ul.task-list > li {
+  background: #f2f2f2;
+}
+/* line 8, ../scss/_task_list.scss */
+ul.task-list > li.closed:after {
+  display: block;
+  width: 35px;
+  height: 100%;
+  background: #90d2c5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  content: "";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 21, ../scss/_task_list.scss */
+ul.task-list > li.closed .task-b-2 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 25, ../scss/_task_list.scss */
+ul.task-list > li.closed .task-b-3 .user-block, ul.task-list > li.closed .task-b-3 .time-block {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+/* line 32, ../scss/_task_list.scss */
+ul.task-list ul {
+  position: relative;
+}
+/* line 38, ../scss/_task_list.scss */
+ul.task-list li {
+  min-height: 62px;
+  position: relative;
+}
+/* line 42, ../scss/_task_list.scss */
+ul.task-list li:before {
+  display: block;
+  width: 1200px;
+  height: 1px;
+  background: #e0e0e0;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  content: "";
+}
+/* line 53, ../scss/_task_list.scss */
+ul.task-list li:last-child {
+  border: 0;
+}
+/* line 57, ../scss/_task_list.scss */
+ul.task-list li .wsc_task {
+  position: relative;
+}
+/* line 59, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 {
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  background: #f7f7f7;
+  padding: 13px 15px;
+  margin: 0 190px 0 35px;
+}
+/* line 68, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 .t-name {
+  color: #5c5c5c;
+  padding-bottom: 5px;
+}
+/* line 72, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 .t-name span {
+  display: inline-block;
+}
+/* line 75, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 .t-name span.name {
+  margin-right: 18px;
+  text-shadow: 0 1px 0 #acacac;
+  font-size: 1.083em;
+}
+/* line 83, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 .t-name span.flag {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 0 3px;
+  height: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.833em;
+  font-weight: 700;
+  margin-right: 3px;
+}
+/* line 96, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-1 {
+  background: #42baa1;
+}
+/* line 100, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-2 {
+  background: #f28448;
+}
+/* line 104, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-3 {
+  color: #42baa1;
+}
+/* line 112, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 {
+  width: 188px;
+  padding: 16px 0 0 14px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+/* line 119, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .user-block {
+  width: 72px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 124, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .user-block:after {
+  top: 14px;
+  left: 32px;
+  position: absolute;
+  content: "";
+}
+/* line 131, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .user-block a {
+  text-decoration: none;
+  float: left;
+  display: block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 137, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .user-block a:last-child {
+  float: right;
+}
+/* line 143, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .time-block {
+  padding: 0 13px;
+  color: #b5b5b5;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.667em;
+  padding-top: 6px;
+}
+/* line 153, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 a.icon-tool {
+  display: block;
+  margin-top: 7px;
+}
+/* line 160, ../scss/_task_list.scss */
+ul.task-list li.wsc_task_selected {
+  background: #f9f9f9;
+}
+/* line 163, ../scss/_task_list.scss */
+ul.task-list li.wsc_task_selected .task-b-2 {
+  background: white;
+}
+/* line 168, ../scss/_task_list.scss */
+ul.task-list li.wsc_task_selected .task-b-3 .time-block {
+  color: #555555;
+}
+/* line 175, ../scss/_task_list.scss */
+ul.task-list li.open.with-child > .task-b-1:before {
+  display: block;
+  width: 0;
+  height: 50%;
+  border-left: 1px dotted #c9c9c9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: "";
+  z-index: 1;
+}
+/* line 188, ../scss/_task_list.scss */
+ul.task-list li.open.with-child > .wsc_task > .task-b-1:after {
+  display: block;
+  width: 0;
+  height: 50%;
+  border-left: 1px dotted #c9c9c9;
+  position: absolute;
+  bottom: 0;
+  left: 17px;
+  content: "";
+  z-index: 1;
+}
+/* line 202, ../scss/_task_list.scss */
+ul.task-list li.sub-li {
+  margin-left: 35px;
+}
+/* line 207, ../scss/_task_list.scss */
+ul.task-list li.sub-li:last-child > .wsc_task > .task-b-1:before {
+  height: 50%;
+}
+/* line 215, ../scss/_task_list.scss */
+ul.task-list li.sub-li .task-b-1:before {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-left: 1px dotted #c9c9c9;
+  position: absolute;
+  top: 0;
+  left: -18px;
+  content: "";
+  z-index: 1;
+}
+/* line 228, ../scss/_task_list.scss */
+ul.task-list li.sub-li .task-b-1 span:before {
+  display: block;
+  width: 20px;
+  height: 1px;
+  border-bottom: 1px dotted #c9c9c9;
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  left: -26px;
+  content: "";
+  z-index: 1;
+}
+/* line 243, ../scss/_task_list.scss */
+ul.task-list ul.menu-list {
+  position: absolute;
+  top: 39px;
+  right: 0;
+  width: 150px;
+  z-index: 100;
+  padding-top: 4px;
+  left: 97px;
+  overflow: hidden;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 255, ../scss/_task_list.scss */
+ul.task-list ul.menu-list.hide {
+  height: 0 !important;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 259, ../scss/_task_list.scss */
+ul.task-list ul.menu-list.hide:after {
+  display: none;
+}
+/* line 264, ../scss/_task_list.scss */
+ul.task-list ul.menu-list:after {
+  border-bottom: 4px solid #2f373c;
+  border-left: 4px outset transparent;
+  border-right: 4px outset transparent;
+  border-up: 4px outset transparent;
+  height: 0;
+  width: 0;
+  display: block;
+  content: '';
+  position: absolute;
+  left: 68px;
+  top: 1px;
+}
+/* line 270, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li {
+  display: block;
+  position: relative;
+  background: #2f373c;
+  min-height: 41px;
+}
+/* line 275, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li:first-child {
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  -ms-border-radius: 2px 2px 0 0;
+  -o-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+}
+/* line 278, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li:last-child {
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  -ms-border-radius: 0 0 2px 2px;
+  -o-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+  margin-bottom: 1px;
+}
+/* line 282, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li:before {
+  display: none;
+}
+/* line 286, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li:after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.15);
+}
+/* line 297, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li a {
+  display: block;
+  height: 41px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+  padding-left: 10px;
+  font-size: 0.845em;
+  color: #616c73;
+  border-left: 40px solid #2a3136;
+  position: relative;
+}
+/* line 314, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li a:before {
+  display: block;
+  content: "";
+  top: 13px;
+  left: -25px;
+  position: absolute;
+}
+/* line 322, ../scss/_task_list.scss */
+ul.task-list ul.menu-list li a:hover {
+  color: #4abba4;
+}
+
+/* line 331, ../scss/_task_list.scss */
+.task-b-1 {
+  position: relative;
+  width: 35px;
+  min-height: 62px;
+}
+/* line 336, ../scss/_task_list.scss */
+.task-b-1 span {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #b0afb4;
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -8px;
+  margin-left: -8px;
+  z-index: 10;
+}
+/* line 349, ../scss/_task_list.scss */
+.task-b-1 span:after {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 3px;
+  top: 3px;
+}
+
+/* line 360, ../scss/_task_list.scss */
+.wsc_task_selected .task-b-1 span {
+  background: #f9f9f9;
+  -webkit-box-shadow: 0 0 0 3px #f9f9f9;
+  -moz-box-shadow: 0 0 0 3px #f9f9f9;
+  box-shadow: 0 0 0 3px #f9f9f9;
+}
+
+/* line 367, ../scss/_task_list.scss */
+.closed .task-b-1 span {
+  border-color: rgba(42, 156, 133, 0.25);
+}
+
+/* line 1, ../scss/_notes-list.scss */
+.notes-list {
+  background: #f9f5d3;
+  font-size: 1.25em;
+  line-height: 1.333em;
+}
+/* line 6, ../scss/_notes-list.scss */
+.notes-list li {
+  position: relative;
+}
+/* line 9, ../scss/_notes-list.scss */
+.notes-list li.wsc_task_selected {
+  color: #777777;
+}
+/* line 13, ../scss/_notes-list.scss */
+.notes-list li li {
+  margin-left: 35px;
+}
+/* line 18, ../scss/_notes-list.scss */
+.notes-list li:before {
+  display: block;
+  width: 1200px;
+  height: 1px;
+  background: #e0e0e0;
+  position: absolute;
+  top: -1px;
+  right: 0;
+  content: "";
+}
+/* line 28, ../scss/_notes-list.scss */
+.notes-list li .wsc_note {
+  padding: 8px 60px 10px 35px;
+  position: relative;
+  min-height: 40px;
+}
+/* line 33, ../scss/_notes-list.scss */
+.notes-list li .wsc_note:before {
+  display: block;
+  width: 15px;
+  left: 10px;
+  top: 0;
+  height: 23px;
+  content: "";
+  background: #f9f5d3;
+  position: absolute;
+  z-index: 3;
+}
+/* line 45, ../scss/_notes-list.scss */
+.notes-list li .status {
+  display: block;
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  z-index: 5;
+}
+/* line 53, ../scss/_notes-list.scss */
+.notes-list li .tools-block {
+  position: absolute;
+  right: 5px;
+  top: 13px;
+}
+/* line 58, ../scss/_notes-list.scss */
+.notes-list li .tools-block a {
+  display: block;
+  margin-right: 10px;
+  float: left;
+}
+/* line 66, ../scss/_notes-list.scss */
+.notes-list li.open:after {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 0;
+  content: "";
+  width: 0px;
+  height: 100%;
+  border-left: 1px dotted #e0e0e0;
+  z-index: 0;
+}
+
+/* line 82, ../scss/_notes-list.scss */
+.notes-tab .tab-footer {
+  background: #f9f5d3;
+}
+
+/* line 1, ../scss/_r-menu.scss */
+.r-menu {
+  position: absolute;
+  left: -25px;
+  top: 30px;
+}
+/* line 8, ../scss/_r-menu.scss */
+.r-menu > ul > li {
+  display: block;
+  padding: 2px 0;
+  margin-bottom: 4px;
+  position: relative;
+}
+/* line 14, ../scss/_r-menu.scss */
+.r-menu > ul > li > a {
+  display: block;
+}
+/* line 18, ../scss/_r-menu.scss */
+.r-menu > ul > li .name-hide {
+  position: absolute;
+  right: 100%;
+  top: 2px;
+  margin-right: 10px;
+  font-size: 0.833em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4abba4;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/* line 34, ../scss/_r-menu.scss */
+.r-menu .menu-list {
+  position: absolute;
+  right: -190px;
+  width: 184px;
+  z-index: 100;
+  top: -5px;
+  overflow: hidden;
+  height: auto;
+  padding-left: 4px;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 45, ../scss/_r-menu.scss */
+.r-menu .menu-list.hide {
+  height: 0 !important;
+  -webkit-transition: height 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: height 0.3s ease-out 0s;
+  -o-transition: height 0.3s ease-out 0s;
+  transition: height 0.3s ease-out 0s;
+}
+/* line 50, ../scss/_r-menu.scss */
+.r-menu .menu-list:after {
+  border-bottom: 4px outset transparent;
+  border-right: 4px solid #2f373c;
+  border-top: 4px outset transparent;
+  border-left: 4px outset transparent;
+  height: 0;
+  width: 0;
+  display: block;
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 12px;
+}
+/* line 56, ../scss/_r-menu.scss */
+.r-menu .menu-list li {
+  display: block;
+  background: #2f373c;
+  position: relative;
+  overflow: hidden;
+}
+/* line 62, ../scss/_r-menu.scss */
+.r-menu .menu-list li:after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  content: "";
+  background: rgba(0, 0, 0, 0.15);
+}
+/* line 73, ../scss/_r-menu.scss */
+.r-menu .menu-list li:first-child {
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  -ms-border-radius: 2px 2px 0 0;
+  -o-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+}
+/* line 76, ../scss/_r-menu.scss */
+.r-menu .menu-list li:first-child a span.name {
+  line-height: 1em;
+}
+/* line 80, ../scss/_r-menu.scss */
+.r-menu .menu-list li:last-child {
+  -webkit-border-radius: 0 0 2px 2px;
+  -moz-border-radius: 0 0 2px 2px;
+  -ms-border-radius: 0 0 2px 2px;
+  -o-border-radius: 0 0 2px 2px;
+  border-radius: 0 0 2px 2px;
+}
+/* line 83, ../scss/_r-menu.scss */
+.r-menu .menu-list li:last-child::after {
+  display: none;
+}
+/* line 88, ../scss/_r-menu.scss */
+.r-menu .menu-list li a {
+  display: block;
+  line-height: 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: none;
+  font-size: 0.833em;
+  color: #616c73;
+}
+/* line 101, ../scss/_r-menu.scss */
+.r-menu .menu-list li a:hover {
+  color: #4abba4;
+}
+/* line 105, ../scss/_r-menu.scss */
+.r-menu .menu-list li a span {
+  display: block;
+  min-height: 31px;
+  padding: 10px;
+  line-height: 30px;
+}
+/* line 111, ../scss/_r-menu.scss */
+.r-menu .menu-list li a span.avatar {
+  width: 50px;
+  background: #2a3136;
+  position: relative;
+  float: left;
+}
+/* line 117, ../scss/_r-menu.scss */
+.r-menu .menu-list li a span.avatar img {
+  display: block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 122, ../scss/_r-menu.scss */
+.r-menu .menu-list li a span.avatar.all:after {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  content: "";
+}
+/* line 131, ../scss/_r-menu.scss */
+.r-menu .menu-list li a span.name {
+  margin-left: 60px;
+}
+/* line 139, ../scss/_r-menu.scss */
+.r-menu.fixed {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  left: 0;
+  z-index: 0;
+}
+/* line 146, ../scss/_r-menu.scss */
+.r-menu.fixed > ul {
+  position: absolute;
+  left: 50%;
+  margin-left: -625px;
+}
+
+/* line 1, ../scss/_footer.scss */
+#footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  left: 0;
+  background: #333333;
+  border-top: 1px solid #434343;
+  font-size: 0.833em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #999999;
+  line-height: 49px;
+}
+/* line 16, ../scss/_footer.scss */
+#footer:before {
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: -3px;
+  left: 0;
+  width: 100%;
+  content: "";
+  background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: -ms-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
+}
+/* line 29, ../scss/_footer.scss */
+#footer .footer-menu li {
+  display: inline;
+  margin: 0 3px 0 -2px;
+}
+/* line 33, ../scss/_footer.scss */
+#footer .footer-menu li:after {
+  display: inline;
+  content: "/";
+  color: #222222;
+}
+/* line 39, ../scss/_footer.scss */
+#footer .footer-menu li:last-child::after {
+  display: none;
+}
+/* line 43, ../scss/_footer.scss */
+#footer .footer-menu li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
+  color: #999999;
+}

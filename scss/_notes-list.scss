@@ -1,0 +1,85 @@
+.notes-list{
+  background: $bg-l-yellow;
+  font-size: $font-15;
+  line-height: 1.333em; // 20/15
+  
+  li{
+    position: relative;
+    
+    &.wsc_task_selected{
+      color: #777777;
+    }
+    
+    li{
+      margin-left: 35px;
+    }
+    
+    
+    &:before{
+      display: block;
+      width: 1200px;
+      height: 1px;
+      background: $border-tab;
+      position: absolute;
+      top: -1px;
+      right: 0;
+      content: "";
+    }
+    .wsc_note{
+      padding: 8px 60px 10px 35px;
+      position: relative;
+      min-height: 40px;
+      
+      &:before{
+        display: block;
+        width: 15px;
+        left: 10px;
+        top: 0;
+        height: 23px;
+        content: "";
+        background:$bg-l-yellow;
+        position: absolute;
+        z-index: 3;
+      }
+    }
+    .status{
+      display: block;
+      position: absolute;
+      top: 14px;
+      left: 17px;
+      z-index: 5;     
+    }
+    
+    .tools-block{
+      position: absolute;
+      right: 5px;
+      top: 13px;
+      
+      a{
+        display: block;
+        margin-right: 10px;
+        float: left;
+      }
+    }
+    
+    &.open{
+      &:after{
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 0;
+        content: "";
+        width: 0px;
+        height: 100%;
+        border-left: 1px dotted $border-tab;
+        z-index: 0;
+      }
+    }
+  }
+}
+
+.notes-tab{
+  .tab-footer{
+    background: $bg-l-yellow;
+  }
+}

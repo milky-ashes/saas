@@ -1,0 +1,143 @@
+.project-zone{
+  background: url(../img/project-bg.jpg) 50% 0 transparent no-repeat;
+  height: $height-project;
+  
+  .project-name{  
+    padding-top: 30px;
+    position: relative;
+    
+    a.project-top{  
+      font:{
+        family: $font-osans;
+        size: $font-23;
+        weight: $font-light;
+      }
+      color: $color-light;
+      text:{
+        shadow: 1px 1px 0 $t-shadow-b;
+        decoration: none;
+      }
+      padding-right: 24px;
+      position: relative;
+      
+      &:after{
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 7px;
+        content: "";          
+      }
+    }
+  }
+  
+  nav.project-nav{
+    padding-top: 30px;
+    ul{
+      overflow: hidden;
+      
+      li{
+        display: block;
+        float: left;
+        padding: 0 15px;
+        position: relative;
+        height: 20px;
+        line-height: 20px;
+        
+        &:after{
+          display: block;
+          width: 0;
+          height: 20px;
+          content: "";
+          position: absolute;
+          right: 0;
+          top: 0;
+          border-right: 1px solid #ffffff;
+          border-left: 1px solid #000000;
+          @include opacity(0.05);
+        }
+        
+        &:last-child{
+          padding-right: 0;
+          
+          &::after{
+            display: none;
+          }
+        }
+      }
+    }
+    
+    
+    a{
+      color: $color-white;
+      text:{
+        transform: uppercase;
+        decoration: none;
+      }
+      font:{
+        size: $font-11;
+        weight: $font-bold;
+        family: $font-osans;
+      }
+      @include opacity(.5);
+      
+      &:hover, &.active{
+        @include opacity(1);
+      }
+    }    
+  }
+  
+  .menu-list{
+    position: absolute;
+    right: -158px;
+    width: 154px;   
+    z-index: 100;
+    top: 20px;
+    overflow: hidden;
+    height: auto;
+    padding-left: 4px;
+    @include transition(height .3s ease-out 0s);
+        
+    &.hide{
+      height: 0!important;       
+      @include transition(height .3s ease-out 0s);
+    }
+    
+    &:after{
+      @include triangle(left, #2f373c, 4px);
+      left: -4px;
+      top: 17px;
+    }
+    
+    li{
+      display: block;
+      border-bottom: 1px solid #2a3135;
+      background: #2f373c;
+      &:first-child{
+         @include border-radius(2px 2px 0 0);
+      }
+      &:last-child{
+         @include border-radius(0 0 2px 2px);
+         margin-bottom: 1px;
+      }
+      
+      a{
+        display: block;
+        padding: 15px 20px;
+        line-height: 1em;
+        text:{
+          decoration: none;
+          transform: uppercase;
+          shadow: none;
+        }
+        font:{
+          size: $font-10;
+        }
+        color: $color-drop;
+        
+        &:hover{
+          color: $color-drop-h;
+        }
+      }
+    }
+  }
+}

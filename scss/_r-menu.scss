@@ -1,0 +1,152 @@
+.r-menu{
+  position: absolute;
+  left: -25px;
+  top: 30px;
+  
+  > ul{
+    
+    > li{
+      display: block;
+      padding: 2px 0;
+      margin-bottom: 4px;
+      position: relative;
+      
+      >a {
+        display: block;
+      }
+      
+      .name-hide{
+        position: absolute;
+        right: 100%;
+        top: 2px;
+        margin-right: 10px;
+        font:{
+          size: $font-10;
+          family: $font-arial;
+        }
+        color: #4abba4;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+    }
+  }
+  
+  .menu-list{
+    position: absolute;
+    right: -190px;
+    width: 184px;   
+    z-index: 100;
+    top: -5px;
+    overflow: hidden;
+    height: auto;
+    padding-left: 4px;
+    @include transition(height .3s ease-out 0s);
+        
+    &.hide{
+      height: 0!important;       
+      @include transition(height .3s ease-out 0s);
+    }
+    
+    &:after{
+      @include triangle(left, #2f373c, 4px);
+      left: -4px;
+      top: 12px;
+    }
+    
+    li{
+      display: block;
+      background: #2f373c;
+      position: relative;
+      overflow: hidden;
+      
+      &:after{
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        content: "";
+        background: rgba(0,0,0,0.15);
+      }
+      
+      &:first-child{
+         @include border-radius(2px 2px 0 0);
+         
+         a span.name{
+           line-height: 1em;
+         }
+      }
+      &:last-child{
+         @include border-radius(0 0 2px 2px);
+                  
+         &::after{
+           display: none;
+         }
+      }
+      
+      a{
+        display: block;
+        line-height: 1em;
+        text:{
+          decoration: none;
+          transform: uppercase;
+          shadow: none;
+        }
+        font:{
+          size: $font-10;
+        }
+        color: $color-drop;
+        
+        &:hover{
+          color: $color-drop-h;
+        }
+        
+        span{
+          display: block;
+          min-height: 31px;
+          padding: 10px;
+          line-height: 30px;
+          
+          &.avatar{
+            width: 50px;
+            background: #2a3136;
+            position: relative;
+            float: left;
+            
+            img{
+              display: block;
+              @include border-radius(3px);
+            }
+            
+            &.all:after{
+              display: block;
+              position:absolute;
+              right: 10px;
+              top: 10px;
+              content: "";
+            }
+          }
+          
+          &.name{
+            margin-left: 60px;
+          }
+        }
+      }
+    }
+  }
+  
+  &.fixed{
+    position: fixed;
+    top: 10px;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+    
+    >ul{
+      position: absolute;
+      left: 50%;
+      margin-left: -625px;
+    }
+  }
+}

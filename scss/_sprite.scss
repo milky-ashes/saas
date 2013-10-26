@@ -1,0 +1,166 @@
+$icon-layout:smart;
+$icon-sprite-dimensions: true;
+@import "icon/*.png";
+@include all-icon-sprites;
+
+a.enter-top:after{
+  @include icon-sprite(arrow-d);
+}
+
+a.project-top:after{
+  @include icon-sprite(i-1);
+}
+
+a.tabs-link{  
+  &.t-link{
+    &:before{
+      @include icon-sprite(task-b-a);
+    }
+    &:after{
+      @include icon-sprite(tab-a);
+    }
+  }
+  
+  &.n-link{
+    &:before{
+      @include icon-sprite(note-b);
+    }
+    &:after{
+      @include icon-sprite(tab);
+    }
+  }
+}
+
+a.add-link{
+  &.add-t:before{
+    @include icon-sprite(task-s);
+  }
+  
+  &.add-n:before{
+    @include icon-sprite(note-s);
+  }
+}
+
+.user-block:after{
+  @include icon-sprite(arrow);
+}
+
+ul.task-list{
+  li.wsc_task_selected .wsc_task {
+    .task-b-3{
+      a.icon-tool{
+        @include icon-sprite(tool-1);
+        
+        &:hover{
+          @include icon-sprite(tool-2);
+        }
+      }
+    }
+  }
+}
+a.icon-tool{        
+  &:hover{
+    @include icon-sprite(tool-2);
+  }
+}
+.closed  a.icon-tool{   
+  @include icon-sprite(tool-3);
+}
+
+.task-b-1 span{
+  &.minus:after{
+    @include icon-sprite(minus);
+    top: 7px;
+  }
+  &.plus:after{
+    @include icon-sprite(plus);
+  }
+  &.check:after{
+    @include icon-sprite(check-g);
+    top: 2px;
+    left: 2px;
+  }
+}
+
+.closed{
+  .task-b-1 span.check:after{
+    @include icon-sprite(check-w);
+  }
+}
+ul.menu-list li a{
+  &.item-1:before{
+    @include icon-sprite(d-1-1);
+  }
+  &.item-2:before{
+    @include icon-sprite(d-1-2);
+  }
+  &.item-3:before{
+    @include icon-sprite(d-1-3);
+  }
+  &.item-4:before{
+    @include icon-sprite(d-1-4);
+  }
+  &.item-5:before{
+    @include icon-sprite(d-1-5);
+  }
+  &.item-6:before{
+    @include icon-sprite(d-1-6);
+  }
+  &.item-7:before{
+    @include icon-sprite(clock);
+  }
+  &.item-8:before{
+    @include icon-sprite(trash);
+  }
+  &.item-9:before{
+    @include icon-sprite(arrow-p);
+  }
+}
+
+a.icon-eye.active{
+  @include icon-sprite(eye-g);
+  position: relative;
+  top: -2px;
+  margin-bottom: -4px;
+}
+
+a.icon-download.active{
+  @include icon-sprite(download-a);
+}
+
+a span.all:after{
+  @include icon-sprite(all);
+}
+
+a.icon-people.active{
+  @include icon-sprite(people-g);
+}
+
+.notes-list li{
+  
+  .status{
+    @include icon-sprite(dot);
+  }
+  
+  &.with-child{
+    > .wsc_note{
+      .status{
+        @include icon-sprite(plus);
+        top: 13px;
+      }
+    }
+  }
+  
+  &.with-child.open{
+    > .wsc_note{
+      .status{
+        @include icon-sprite(minus);
+        top: 16px;
+      }
+    }
+  }
+  
+  .icon-trash{
+    @include icon-sprite(trash-l);
+  }
+}
