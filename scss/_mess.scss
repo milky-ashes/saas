@@ -1,0 +1,53 @@
+.mess-block{
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  
+  ul{
+    width: 220px;
+    
+    li{
+      display: block;
+      margin-bottom: 13px;
+      
+      a{
+        display: block;
+        background: #2f373c;
+        position: relative;
+        padding: 10px 30px 15px;
+        @include border-radius(2px);
+        @include opacity(.95);
+        
+        text-decoration: none;
+        color: #999999;
+        font:{
+          family: $font-arial;
+        }
+        line-height: 2em; // 24/12
+        
+        span.icon-close{
+          display: block;
+          position: absolute;
+          top: 4px;
+          right: 4px;
+        }
+        
+        &:hover{
+          background: #2eb597;
+          color: #ffffff;
+        }
+        
+        &.cls-all{
+          font:{
+            size: $font-15;
+          }
+          color: #ffffff;
+          text-align: center;
+          padding: 0;
+          height: 29px;
+          line-height: 29px;
+        }
+      }
+    }
+  }
+}

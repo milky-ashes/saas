@@ -164,3 +164,11 @@ a.icon-people.active{
     @include icon-sprite(trash-l);
   }
 }
+.mail-part{
+  .icon-trash{
+    @include icon-sprite(trash-l);
+  }
+}
+.cuselFrameRight{
+  @include icon-sprite(arrow-s);
+}

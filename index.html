@@ -38,16 +38,16 @@
 								<a href="#" class="enter-top" data-menu="link">Tony Truman</a>
 								<ul class="menu-list" data-menu="list">
 									<li>
-										<a href="#" class="item-1">my profile</a>
+										<a href="#profile" class="item-1" data-popup="true">my profile</a>
 									</li>
 									<li>
-										<a href="#" class="item-2">invite user</a>
+										<a href="#invite" class="item-2" data-popup="true">invite user</a>
 									</li>
 									<li>
-										<a href="#" class="item-3">manage users</a>
+										<a href="#manage" class="item-3" data-popup="true">manage users</a>
 									</li>
 									<li>
-										<a href="#" class="item-4">reports</a>
+										<a href="#reports" class="item-4" data-popup="true">reports</a>
 									</li>
 									<li>
 										<a href="#" class="item-5">logout</a>
@@ -632,12 +632,292 @@
 			</div>
 		</footer>
 
-
-
-
+		<div class="mess-block">
+			<ul data-mess="true">
+				<li>
+					<a href="#">
+						<span class="icon-close" data-cls="true"></span>
+						<p>Project "potential  for t.." user been added</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-close" data-cls="true"></span>
+						<p>Project "potential  for t.." user been added</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-close" data-cls="true"></span>
+						<p>Project "potential  for t.." user been added</p>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="icon-close" data-cls="true"></span>
+						<p>Project "potential  for t.." user been added</p>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="cls-all" data-cls="all">Close all</a>
+				</li>
+			</ul>
+		</div>
+		<div class="popup profile-popup" data-modal="true" id="profile">
+			<div class="popup-inner">
+				<a href="#" class="icon-cls-p" data-closeBtn="true"></a>
+				<div class="popup-head">					
+					<h2>My profile</h2>
+				</div>
+				<div class="popup-body">
+					<form>
+						<div class="form-part">
+							<input type="email" class="base-input" placeholder="Email"/>
+						</div>
+						<div class="form-part">
+							<input type="text" class="base-input" placeholder="First Name:"/>
+						</div>
+						<div class="form-part">
+							<input type="text" class="base-input" placeholder="Last Name:"/>
+						</div>
+						<div class="link-block clearfix">
+							<input type="submit" class="button blue-button" value="Save changes">
+							<input type="button" class="button grey-button" value="Cancel">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="popup invite-popup" data-modal="true" id="invite">
+			<div class="popup-inner">
+				<a href="#" class="icon-cls-p" data-closeBtn="true"></a>
+				<div class="popup-head">					
+					<h2>Invite New User</h2>
+				</div>
+				<div class="popup-body">
+					<form>
+						<div class="form-part">
+							<input type="email" class="base-input" placeholder="Email"/>
+						</div>
+						<div class="form-part">
+							<input type="text" class="base-input" placeholder="First Name:"/>
+						</div>
+						<div class="form-part">
+							<input type="text" class="base-input" placeholder="Last Name:"/>
+						</div>
+						<div class="form-part clearfix">
+							<label class="left s-label">Role:</label>
+							<div class="select s-395 right">
+								<select data-select="true">
+									<option>Role 1</option>
+									<option>Role 2</option>
+									<option>Role 3</option>
+									<option>Role 4</option>
+									<option>Role 5</option>
+									<option>Role 6</option>
+								</select>
+							</div>
+						</div>
+						<div class="link-block clearfix">
+							<input type="submit" class="button blue-button" value="Save changes">
+							<input type="button" class="button grey-button" value="Cancel">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="popup reports-popup" data-modal="true" id="reports">
+			<div class="popup-inner">
+				<a href="#" class="icon-cls-p" data-closeBtn="true"></a>
+				<div class="popup-head">					
+					<h2>Timer Reports</h2>
+				</div>
+				<div class="popup-body">
+					<form>
+						<div class="form-part clearfix">
+							<label class="left m-label">Time Period</label>
+							<div class="select s-355 right">
+								<select data-select="true">
+									<option>Role 1</option>
+									<option>Role 2</option>
+									<option>Role 3</option>
+									<option>Role 4</option>
+									<option>Role 5</option>
+									<option>Role 6</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-part clearfix">
+							<label class="left m-label">Select User</label>
+							<div class="select s-355 right">
+								<select data-select="true">
+									<option>Role 1</option>
+									<option>Role 2</option>
+									<option>Role 3</option>
+									<option>Role 4</option>
+									<option>Role 5</option>
+									<option>Role 6</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-part clearfix">
+							<label class="left s-label">Results</label>
+							<div class="s-355 right">
+								<span class="r-text">0h 0m</span>
+							</div>
+						</div>
+						<div class="link-block clearfix">
+							<input type="submit" class="button blue-button" value="Generate Report!">
+							<input type="button" class="button grey-button" value="Cancel">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="popup manage-popup" data-modal="true" id="manage">
+			<div class="popup-inner">
+				<a href="#" class="icon-cls-p" data-closeBtn="true"></a>
+				<div class="popup-head">					
+					<h2>Manage Users</h2>
+				</div>
+				<div class="popup-body">
+					<form>
+						<div class="form-part clearfix">
+							<label class="left l-label">Me</label>
+							<div class="select s-200 left">
+								<select data-select="true">
+									<option value="1">Admin</option>
+									<option>User</option>
+								</select>
+							</div>
+							<div class="right mail-part">
+								<span class="email">tony.trimber@gmail.com</span>
+								<a href="#" class="icon-trash"></a>
+							</div>
+						</div>
+						<div class="form-part clearfix">
+							<label class="left l-label">Slava</label>
+							<div class="select s-200 left">
+								<select data-select="true">
+									<option value="1">Admin</option>
+									<option>User</option>
+								</select>
+							</div>
+							<div class="right mail-part">
+								<span class="email">tony.trimber@gmail.com</span>
+								<a href="#" class="icon-trash"></a>
+							</div>
+						</div>
+						<div class="form-part clearfix">
+							<label class="left l-label">Antony</label>
+							<div class="select s-200 left">
+								<select data-select="true">
+									<option value="1">Admin</option>
+									<option>User</option>
+								</select>
+							</div>
+							<div class="right mail-part">
+								<span class="email">tony.trimber@gmail.com</span>
+								<a href="#" class="icon-trash"></a>
+							</div>
+						</div>
+						<div class="form-part clearfix">
+							<label class="left l-label">Alina</label>
+							<div class="select s-200 left">
+								<select data-select="true">
+									<option value="1">Admin</option>
+									<option>User</option>
+								</select>
+							</div>
+							<div class="right mail-part">
+								<span class="email">tony.trimber@gmail.com</span>
+								<a href="#" class="icon-trash"></a>
+							</div>
+						</div>
+						<div class="link-block clearfix">
+							<input type="submit" class="button blue-button" value="Save changes">
+							<input type="button" class="button grey-button" value="Cancel">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--div class="popup settings-popup" data-modal="true" id="settings">
+			<div class="popup-inner">
+				<a href="#" class="icon-cls-p" data-closeBtn="true"></a>
+				<div class="popup-head">					
+					<h2>Account Settings</h2>
+				</div>
+				<div class="popup-body">
+					<form>
+						<div class="clearfix">
+							<div class="left container-470">
+								<div class="form-part">
+									<label>Name:</label>
+									<input type="text" class="base-input">
+									<p class="note">This is a way how other users will see you withing service.</p>
+								</div>
+								<div class="form-part">
+									<label>Email address:</label>
+									<div class="clearfix">
+										<input type="text" class="base-input m-input left">
+										<input type="submit" class="button blue-button right" value="Change">
+									</div>
+									
+									<p class="note">To change the email address, you'll have to enter you password.</p>
+								</div>
+								<div class="form-part">
+									<label>Change password:</label>
+									<input type="password" class="base-input w-m" placeholder="Current password">
+									<input type="password" class="base-input" placeholder="New password">
+									<p class="note">In order to change your password, both fields must mach.</p>
+								</div>
+							</div>
+							<div class="right container-122">
+								<div class="ava-block">
+									<img src="trash/ava-112-112.jpg" alt="" />									
+								</div>
+								<input type="button" class="button grey-button" value="Upload"/>
+							</div>
+						</div>
+						
+						
+						<div class="link-block clearfix">
+							<input type="submit" class="button blue-button" value="Update">
+							<input type="button" class="button grey-button" value="Cancel">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div-->
+		<!--div class="popup login-popup" data-modal="true" id="login">
+			<div class="popup-inner">
+				<a href="#" class="icon-cls-p" data-closeBtn="true"></a>
+				<div class="popup-head">	
+					<h1>Quick Task</h1>				
+					<h2>Howdy, welcome back!</h2>
+				</div>
+				<div class="popup-body">
+					<form>
+						<div class="form-part">
+							<input type="text" class="base-input " placeholder="Username:"/>
+						</div>
+						<div class="form-part">
+							<input type="password" class="base-input  error" placeholder="Password"/>
+						</div>
+						<div class="link-block clearfix">
+							<input type="submit" class="button blue-button" value="Login">
+							<a href="#">Reset password</a>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div-->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/jquery-migrate-1.1.1.min.js"></script>
+        <script src="js/cusel.js"></script>
         <script src="js/scrips.js"></script>
     </body>
 </html>

@@ -80,4 +80,48 @@ jQuery(document).ready(function(){
 	        }
 	    });
     });
+    
+    //for message
+    $('[data-cls]').exists(function(){
+    	$('[data-cls="true"]').on('click', function(){
+    		var cls = $(this);    		
+    		cls.parent().parent().remove();
+    	});
+    	$('[data-cls="all"]').on('click', function(){
+    		 		
+    		$('[data-mess]').remove();
+    	});
+    });
+    
+    //for popup
+    $('[data-popup]').exists(function(){
+    	$(this).on('click', function(){
+    		popup($(this));
+    	});
+    });
+    
+    //for select
+    $('[data-select]').exists(function(){
+
+		var params = {
+			changedEl: "[data-select]",
+			visRows: 10,
+		}
+		cuSel(params);
+
+
+	});
+	
 });
+
+function popup(popupLink){
+	
+	$(popupLink.attr('href')).show();
+  	$('body').append('<div id="fade"></div>');
+  	$('#fade').css({'filter' : 'alpha(opacity=60)'}).fadeIn();
+
+  	$('[data-closeBtn]').on('click', function(e){
+		$('[data-modal]').hide();
+		$('#fade').remove();
+	});
+};

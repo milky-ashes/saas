@@ -1,0 +1,367 @@
+.popup{
+  position: fixed;
+  top: 135px;
+  left: 50%;
+  z-index: 500;
+  display: none;
+  
+  &.profile-popup, &.invite-popup, &.reports-popup{   
+    width: 560px;
+    margin-left: -280px;
+  }
+  
+  &.login-popup{
+    width: 650px;
+    margin-left: -325px;
+    
+    .popup-inner{
+      padding: 55px 100px 60;
+    }
+  }
+  
+  &.manage-popup{
+    width: 720px;
+    margin-left: -360px;
+    
+    .popup-inner{
+      padding: 55px 60px 60px;
+    }
+  }
+  
+  &.settings-popup{
+    width: 750px;
+    margin-left: -375px;
+    
+    .popup-inner{
+      padding: 55px 60px 60px;
+    }
+  }
+  
+  .popup-inner{
+    background: #dfdfdf;
+    padding: 55px 55px 60px;
+    @include border-radius(3px);
+    position: relative;
+    
+    .icon-cls-p{
+      position: absolute;
+      top: 30px;
+      right: 30px;
+    }
+    
+    .popup-head{
+      position: relative;
+      padding-bottom: 15px;
+      
+      h1{
+        color: #333333;
+        font:{
+          size: $font-52;
+          family: $font-osans;
+        }
+        line-height: 1em;
+        padding-bottom: 25px;
+      }
+      
+      h2{
+        font:{
+          size: $font-28;
+          weight: $font-light;
+          family: $font-osans;
+        }
+        color: #999999;
+        text-shadow: 1px 0 1px #ffffff;
+        line-height: 1em;
+      }
+    }
+    
+    .popup-body{
+      
+      .form-part{
+        padding-bottom: 20px;
+        position: relative;
+      }
+      
+      .base-input{
+        display: block;
+        padding: 0 20px;
+        height: 40px;
+        background: $bg-white;
+        font:{
+          family: $font-osans;
+          size: $font-13-16;
+          weight: $font-bold;
+        }
+        color: #262626;
+        width: 100%;
+        border: none;
+        border-top: 1px solid #bfbfbf;
+        @include border-radius(2px);
+        
+        &:-moz-placeholder {
+          color: #acacac;
+          font-weight: $font-regular;
+         }
+         
+        &::-moz-placeholder {
+          color: #acacac;
+          font-weight: $font-regular;
+         }
+         
+        &::-webkit-input-placeholder {
+          color: #acacac;
+          font-weight: $font-regular;
+         }
+         
+        &:-ms-input-placeholder {
+          color: #acacac;
+          font-weight: $font-regular;
+         }
+         
+         &.error{
+           background: #ffcccd;
+           border-color: #bf999a;
+           
+           &:-moz-placeholder {
+            color: #c19e9e;
+           }
+           
+          &::-moz-placeholder {
+            color: #c19e9e;
+           }
+           
+          &::-webkit-input-placeholder {
+            color: #c19e9e;
+           }
+           
+          &:-ms-input-placeholder {
+            color: #c19e9e;
+           }
+         }
+         
+         &.m-input{
+           width: 365px;
+         }
+      }
+      
+      .button{
+        display: block;        
+        border: none;
+        height: 40px;
+        padding: 0 20px;
+        color: #ffffff;
+        font:{
+          size: $font-14;
+          weight: $font-sbold;
+          family: $font-osans;
+        }
+        @include border-radius(2px);        
+        cursor: pointer;
+        
+        &.blue-button{
+          background: #2db3e9;
+          @include transition(all .5s ease-out 0s);
+          
+          &:hover{
+            background: #1099d0;
+            @include transition(all .5s ease-out 0s);
+          }
+        }
+        
+        &.grey-button{
+          background: #bbbbbb;
+          @include transition(all .5s ease-out 0s);
+          
+          &:hover{
+            background: #a5a2a2;
+            @include transition(all .5s ease-out 0s);
+          }
+        }
+      }
+      
+      .link-block{
+        .button{
+          margin-right: 10px;
+          float: left;
+        }
+        
+        a{          
+          line-height: 40px;
+          text-decoration: none;
+          color: #436a8c;
+          font:{
+            size: $font-14;
+            family: $font-osans;
+          }
+          @include transition(color .5s ease-out 0s);
+          
+          &:hover{
+            color: #2db3e9;
+            @include transition(all .5s ease-out 0s);
+          }
+        }
+      }
+      
+     .form-part > label{
+        display: block;
+        color: #666666;
+        font:{
+          size: $font-15;
+          weight: $font-sbold;
+          family: $font-osans;
+        }
+        line-height: 40px;
+        
+        &.s-label{
+          width: 50px;
+        }
+        
+        &.m-label{
+          width: 90px;
+        }
+        
+        &.l-label{
+          width: 145px;
+        }
+      }
+    }
+  }
+}
+
+#fade{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 400;
+  background: rgba(0,0,0,.5);
+}
+
+
+//select
+.select{
+  position: relative;
+  
+  .cusel{
+    padding: 0 30px 0 20px;
+    height: 40px;
+    background: $bg-white;    
+    width: 100%!important;
+    border: none;
+    border-top: 1px solid #bfbfbf;
+    @include border-radius(2px);
+    
+    .cuselFrameRight{
+      position: absolute;
+      right: 17px;
+      top: 17px;
+    }
+    
+    .cuselText {
+      line-height: 40px;
+      height: 40px;
+      overflow: hidden;
+      font:{
+        family: $font-osans;
+        size: $font-13-16;
+      }
+      color: #acacac;
+    }
+  }
+}
+
+#cuselBox{
+   z-index: 1000;
+   position: absolute!important;
+   
+  .cuselItem{
+    width: 100%;
+    padding: 5px 20px;
+    display: block;
+    background: $bg-white;
+   
+  }
+}
+
+.s-395{
+    width: 395px;
+}
+
+.s-355{
+  width: 355px;
+}
+.s-200{
+  width: 200px;
+}
+
+.r-text{
+  color: #666666;
+  font:{
+    weight: $font-bold;
+    size: $font-14;
+    family: $font-osans;
+  }
+  line-height: 40px;
+}
+
+.mail-part{
+  width: 245px;
+  
+  span{
+    display: inline-block;
+    font:{
+      size: $font-14;
+      weight: $font-light;
+      family: $font-osans;
+    }
+    line-height: 40px;
+    text-align: right;
+    color: #666666;
+    width: 225px;
+    overflow: hidden;
+    padding-right: 15px;
+  }
+  .icon-trash{
+    display: inline-block;
+    position: relative;
+    top: -12px;
+  }
+}
+.w-m{
+  margin-bottom: 10px;
+}
+.settings-popup{
+  .popup-inner .popup-body .form-part {
+    padding-bottom: 15px;
+    > label{
+      line-height: 1em;
+      padding-bottom: 10px;
+    }
+    
+    .note{
+     font:{
+       family: $font-osans;
+     }
+     color: #969696;
+     padding-top: 2px;
+    }
+  }
+}
+
+.ava-block{
+  border: 1px solid #b2b2b2;
+  @include border-radius(3px);
+  background: $bg-white;
+  padding: 4px;
+  margin:24px 0  9px;
+  
+  img{
+    display: block;
+    @include border-radius(2px);
+  }
+  
+  + .button{
+    width: 122px;
+  }
+}
