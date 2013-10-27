@@ -68,6 +68,14 @@ jQuery(document).ready(function(){
 		});
 	});
 	
+	//for time
+    
+    $('[data-time]').exists(function(){
+		$(this).hover(function(){
+			$(this).parent().toggleClass("active");
+		});
+	});
+	
 	//for fixed menu
     $('[data-fixed]').exists(function(){
     	

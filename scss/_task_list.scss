@@ -144,14 +144,56 @@ ul.task-list{
           color: $color-time;
           font:{
             family: $font-osans;
-            size: $font-20; // проверь это!!!
+            size: $font-20;
           }
+          position: relative;
           padding-top: 6px;
+           a{
+             display:none;
+             position: absolute;
+             top: 8px;
+             width: 14px;
+             height: 14px;
+             line-height: 11px;
+             font:{
+               size: $font-10;
+               weight: $font-bold;
+               family: $font-osans;
+             }
+             text-decoration: none;
+             color: #ffffff;
+             text-align: center;
+             @include border-radius(7px);
+             background: #2eb398;
+             border: 1px solid #ffffff;
+             @include box-shadow(0 0 0 1px #2eb398);
+             
+             &.minus{
+               left: -5px;
+               line-height: 8px;
+             }
+             
+             &.plus{
+               right: -5px;
+             }
+           }
         }
         
         a.icon-tool{
           display: block;
           margin-top: 7px;
+        }
+        
+        &.active{
+          .user-block, .tools-block{
+            @include opacity(0.1);
+          }
+          
+          .time-block{            
+            a{
+              display: block;
+            }
+          }
         }
       }
     }

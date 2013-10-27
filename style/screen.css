@@ -1325,26 +1325,70 @@ ul.task-list li .wsc_task .task-b-3 .time-block {
   color: #b5b5b5;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1.667em;
+  position: relative;
   padding-top: 6px;
 }
-/* line 152, ../scss/_task_list.scss */
+/* line 151, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .time-block a {
+  display: none;
+  position: absolute;
+  top: 8px;
+  width: 14px;
+  height: 14px;
+  line-height: 11px;
+  font-size: 0.833em;
+  font-weight: 700;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background: #2eb398;
+  border: 1px solid #ffffff;
+  -webkit-box-shadow: 0 0 0 1px #2eb398;
+  -moz-box-shadow: 0 0 0 1px #2eb398;
+  box-shadow: 0 0 0 1px #2eb398;
+}
+/* line 171, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .time-block a.minus {
+  left: -5px;
+  line-height: 8px;
+}
+/* line 176, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3 .time-block a.plus {
+  right: -5px;
+}
+/* line 182, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 a.icon-tool {
   display: block;
   margin-top: 7px;
 }
-/* line 159, ../scss/_task_list.scss */
+/* line 188, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3.active .user-block, ul.task-list li .wsc_task .task-b-3.active .tools-block {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
+  opacity: 0.1;
+}
+/* line 193, ../scss/_task_list.scss */
+ul.task-list li .wsc_task .task-b-3.active .time-block a {
+  display: block;
+}
+/* line 201, ../scss/_task_list.scss */
 ul.task-list li.wsc_task_selected {
   background: #f9f9f9;
 }
-/* line 162, ../scss/_task_list.scss */
+/* line 204, ../scss/_task_list.scss */
 ul.task-list li.wsc_task_selected .task-b-2 {
   background: white;
 }
-/* line 167, ../scss/_task_list.scss */
+/* line 209, ../scss/_task_list.scss */
 ul.task-list li.wsc_task_selected .task-b-3 .time-block {
   color: #555555;
 }
-/* line 174, ../scss/_task_list.scss */
+/* line 216, ../scss/_task_list.scss */
 ul.task-list li.open.with-child > .task-b-1:before {
   display: block;
   width: 0;
@@ -1356,7 +1400,7 @@ ul.task-list li.open.with-child > .task-b-1:before {
   content: "";
   z-index: 1;
 }
-/* line 187, ../scss/_task_list.scss */
+/* line 229, ../scss/_task_list.scss */
 ul.task-list li.open.with-child > .wsc_task > .task-b-1:after {
   display: block;
   width: 0;
@@ -1368,15 +1412,15 @@ ul.task-list li.open.with-child > .wsc_task > .task-b-1:after {
   content: "";
   z-index: 1;
 }
-/* line 201, ../scss/_task_list.scss */
+/* line 243, ../scss/_task_list.scss */
 ul.task-list li.sub-li {
   margin-left: 35px;
 }
-/* line 206, ../scss/_task_list.scss */
+/* line 248, ../scss/_task_list.scss */
 ul.task-list li.sub-li:last-child > .wsc_task > .task-b-1:before {
   height: 50%;
 }
-/* line 214, ../scss/_task_list.scss */
+/* line 256, ../scss/_task_list.scss */
 ul.task-list li.sub-li .task-b-1:before {
   display: block;
   width: 0;
@@ -1388,7 +1432,7 @@ ul.task-list li.sub-li .task-b-1:before {
   content: "";
   z-index: 1;
 }
-/* line 227, ../scss/_task_list.scss */
+/* line 269, ../scss/_task_list.scss */
 ul.task-list li.sub-li .task-b-1 span:before {
   display: block;
   width: 20px;
@@ -1401,7 +1445,7 @@ ul.task-list li.sub-li .task-b-1 span:before {
   content: "";
   z-index: 1;
 }
-/* line 242, ../scss/_task_list.scss */
+/* line 284, ../scss/_task_list.scss */
 ul.task-list ul.menu-list {
   position: absolute;
   top: 39px;
@@ -1417,7 +1461,7 @@ ul.task-list ul.menu-list {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 254, ../scss/_task_list.scss */
+/* line 296, ../scss/_task_list.scss */
 ul.task-list ul.menu-list.hide {
   height: 0 !important;
   -webkit-transition: height 0.3s ease-out;
@@ -1426,11 +1470,11 @@ ul.task-list ul.menu-list.hide {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 258, ../scss/_task_list.scss */
+/* line 300, ../scss/_task_list.scss */
 ul.task-list ul.menu-list.hide:after {
   display: none;
 }
-/* line 263, ../scss/_task_list.scss */
+/* line 305, ../scss/_task_list.scss */
 ul.task-list ul.menu-list:after {
   border-bottom: 4px solid #2f373c;
   border-left: 4px outset transparent;
@@ -1444,14 +1488,14 @@ ul.task-list ul.menu-list:after {
   left: 68px;
   top: 1px;
 }
-/* line 269, ../scss/_task_list.scss */
+/* line 311, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li {
   display: block;
   position: relative;
   background: #2f373c;
   min-height: 41px;
 }
-/* line 274, ../scss/_task_list.scss */
+/* line 316, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:first-child {
   -webkit-border-radius: 2px 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
@@ -1459,7 +1503,7 @@ ul.task-list ul.menu-list li:first-child {
   -o-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0;
 }
-/* line 277, ../scss/_task_list.scss */
+/* line 319, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:last-child {
   -webkit-border-radius: 0 0 2px 2px;
   -moz-border-radius: 0 0 2px 2px;
@@ -1468,11 +1512,11 @@ ul.task-list ul.menu-list li:last-child {
   border-radius: 0 0 2px 2px;
   margin-bottom: 1px;
 }
-/* line 281, ../scss/_task_list.scss */
+/* line 323, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:before {
   display: none;
 }
-/* line 285, ../scss/_task_list.scss */
+/* line 327, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:after {
   display: block;
   position: absolute;
@@ -1483,7 +1527,7 @@ ul.task-list ul.menu-list li:after {
   content: "";
   background: rgba(0, 0, 0, 0.15);
 }
-/* line 296, ../scss/_task_list.scss */
+/* line 338, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li a {
   display: block;
   height: 41px;
@@ -1497,7 +1541,7 @@ ul.task-list ul.menu-list li a {
   border-left: 40px solid #2a3136;
   position: relative;
 }
-/* line 313, ../scss/_task_list.scss */
+/* line 355, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li a:before {
   display: block;
   content: "";
@@ -1505,18 +1549,18 @@ ul.task-list ul.menu-list li a:before {
   left: -25px;
   position: absolute;
 }
-/* line 321, ../scss/_task_list.scss */
+/* line 363, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li a:hover {
   color: #4abba4;
 }
 
-/* line 330, ../scss/_task_list.scss */
+/* line 372, ../scss/_task_list.scss */
 .task-b-1 {
   position: relative;
   width: 35px;
   min-height: 62px;
 }
-/* line 335, ../scss/_task_list.scss */
+/* line 377, ../scss/_task_list.scss */
 .task-b-1 span {
   width: 16px;
   height: 16px;
@@ -1530,7 +1574,7 @@ ul.task-list ul.menu-list li a:hover {
   margin-left: -8px;
   z-index: 10;
 }
-/* line 348, ../scss/_task_list.scss */
+/* line 390, ../scss/_task_list.scss */
 .task-b-1 span:after {
   display: block;
   position: absolute;
@@ -1539,7 +1583,7 @@ ul.task-list ul.menu-list li a:hover {
   top: 3px;
 }
 
-/* line 359, ../scss/_task_list.scss */
+/* line 401, ../scss/_task_list.scss */
 .wsc_task_selected .task-b-1 span {
   background: #f9f9f9;
   -webkit-box-shadow: 0 0 0 3px #f9f9f9;
@@ -1547,7 +1591,7 @@ ul.task-list ul.menu-list li a:hover {
   box-shadow: 0 0 0 3px #f9f9f9;
 }
 
-/* line 366, ../scss/_task_list.scss */
+/* line 408, ../scss/_task_list.scss */
 .closed .task-b-1 span {
   border-color: rgba(42, 156, 133, 0.25);
 }
