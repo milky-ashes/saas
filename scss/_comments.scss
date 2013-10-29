@@ -1,0 +1,39 @@
+.comment-block{
+  padding: 25px 10px 0 20px;
+  
+  .comment-part{
+    padding-bottom: 10px;
+    min-height: 30px;
+    overflow: hidden;
+    
+    .comment-t{
+      background: $bg-tabs-a-d;
+      padding: 7px 45px 7px 15px;
+      margin-left: 37px;
+      @include border-radius(2px);
+      position: relative;
+      
+      a.icon-cls-c{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: block;
+      }
+    }
+  }
+  
+  .sub-com{
+    clear: both;
+    margin-left: 37px;
+    padding-top: 10px;
+    position: relative;
+    
+    &:before{
+      display: block;
+      position: absolute;
+      left: -20px;
+      top: 17px;
+      content: "";
+    }
+  }
+}

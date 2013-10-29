@@ -172,3 +172,12 @@ a.icon-people.active{
 .cuselFrameRight{
   @include icon-sprite(arrow-s);
 }
+
+.flag-4:before{
+  @include icon-sprite(com);
+}
+
+.sub-com:before{
+  @include icon-sprite(com-s);
+}
+

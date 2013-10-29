@@ -70,7 +70,7 @@ ul.task-list{
           padding-bottom: 5px;
           
           span{
-            display: inline-block;
+            
             
             &.name{
               margin-right: 18px;
@@ -91,6 +91,7 @@ ul.task-list{
                 weight: $font-bold;
               }
               margin-right: 3px;
+              display: inline-block;
               
               &.flag-1{
                 background: $bg-t;
@@ -100,8 +101,23 @@ ul.task-list{
                 background: $bg-orange;
               }
               
-              &.flag-3{
+              &.flag-5{
                 color: $bg-t;
+              }
+              &.flag-3{
+                color: $color-grey;
+              }
+              &.flag-4{
+                color: $color-grey;
+                padding-left: 10px;
+                position: relative;
+                
+                &:before{
+                  position: absolute;
+                  left: 0;
+                  top: 4px;
+                  content: "";
+                }
               }
             }
           }
@@ -212,6 +228,21 @@ ul.task-list{
       }      
     }
     &.open.with-child{
+      
+      .wsc_task{
+        position: relative;
+         &:before{
+          display: block;
+          width: 20px;
+          height: 30px;
+          position: absolute;
+          top: 0; 
+          left: 5px;
+          background: $bg-tabs-a-d;
+          content: "";
+          z-index: 5;
+        }
+      }
         > .task-b-1{
           &:before{
             display: block;
@@ -229,7 +260,7 @@ ul.task-list{
         &:after{
           display: block;
           width: 0;
-          height: 50%;
+          height: 100%;
           border-left: 1px dotted #c9c9c9;
           position: absolute;
           bottom: 0; 
@@ -237,6 +268,8 @@ ul.task-list{
           content: "";
           z-index: 1;
         }
+        
+       
        } 
       }
     
@@ -246,7 +279,7 @@ ul.task-list{
       &:last-child{
         > .wsc_task >.task-b-1{
           &:before{
-            height: 50%;
+            height: 32px;
           }
         }
       }
@@ -381,9 +414,8 @@ ul.task-list{
     border-radius: 2px;
     display: block;
     position: absolute;
-    top: 50%;
+    top: 23px;
     left: 50%;
-    margin-top: -8px;
     margin-left: -8px;
     z-index: 10;
     

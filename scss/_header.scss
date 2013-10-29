@@ -121,13 +121,13 @@ header#header{
       
       a.enter-top{
         position: relative;
-        padding-right: 23px;
+        padding: 17px 23px 17px 0;
         
         &:after{
           display: inline-block;
           position: absolute;
           right: 0;
-          top: 7px;
+          top: 24px;
           content: "";          
         }
       }

@@ -83,3 +83,25 @@
     line-height: 1em;
   }
 }
+
+.wsc_task, .wsc_note{
+  a.icon-drag{
+    display: block;
+    position: absolute;
+    right: -16px;
+    top: 30px;
+    display: none;
+  }
+  
+  &:hover{
+    a.icon-drag{
+      display: block;
+    }
+  }
+}
+
+.wsc_note{
+  a.icon-drag{
+    top: 10px;   
+  }
+}

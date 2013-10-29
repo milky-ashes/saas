@@ -24,6 +24,10 @@ a{
         transform: uppercase;
       }
       
+      &:hover{
+        color: $color-add-l - 22;
+      }
+      
       &:before{
         display: block;
         left: 0;
