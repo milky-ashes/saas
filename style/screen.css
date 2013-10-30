@@ -5,7 +5,6 @@
   src: url('fonts/helvetica_world.eot?#iefix') format('eot'), url('fonts/helvetica_world.ttf') format('truetype');
 }
 
-/* line 17, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -27,50 +26,41 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 1, ../scss/_typography.scss */
 body {
   font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -79,7 +69,6 @@ body {
   color: #9f9f9f;
 }
 
-/* line 12, ../scss/_typography.scss */
 a.add-link {
   line-height: 30px;
   font-size: 0.845em;
@@ -91,11 +80,9 @@ a.add-link {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 27, ../scss/_typography.scss */
 a.add-link:hover {
   color: #8f8f8f;
 }
-/* line 31, ../scss/_typography.scss */
 a.add-link:before {
   display: block;
   left: 0;
@@ -104,506 +91,444 @@ a.add-link:before {
   position: absolute;
 }
 
-/* line 402, icon/*.png */
-.icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow-s, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-close, .icon-cls-c, .icon-cls-p, .icon-com-s, .icon-com, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-drag, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .task-b-1 span.check:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a span.all:after, a.icon-people.active, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash, .mail-part .icon-trash, .cuselFrameRight, .flag-4:before, .sub-com:before {
-  background: url('../img/icon-s1e0ac4e322.png') no-repeat;
+.icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow-s, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-close, .icon-cls-c, .icon-cls-p, .icon-com-s, .icon-com, .icon-comment-h, .icon-comment, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-drag, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .task-b-1 span.check:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a.icon-comment.active, a span.all:after, a.icon-people.active, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash, .mail-part .icon-trash, .cuselFrameRight, .flag-4:before, .sub-com:before {
+  background: url('../img/icon-s157cb2193f.png') no-repeat;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-all {
-  background-position: -92px 0;
+  background-position: -24px -56px;
   height: 14px;
   width: 22px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-arrow-d {
-  background-position: 0 -42px;
+  background-position: -8px -14px;
   height: 5px;
   width: 8px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-arrow-p {
-  background-position: -92px -42px;
+  background-position: -108px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-arrow-s {
-  background-position: -14px -56px;
+  background-position: -16px -14px;
   height: 6px;
   width: 6px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-arrow {
-  background-position: -6px -14px;
+  background-position: 0 -28px;
   height: 3px;
   width: 8px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-check-g {
-  background-position: -73px -14px;
+  background-position: -14px -56px;
   height: 10px;
   width: 10px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-check-w {
-  background-position: -20px -56px;
+  background-position: 0 -42px;
   height: 10px;
   width: 10px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-clock {
-  background-position: -30px -56px;
+  background-position: -64px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-close {
-  background-position: 0 -14px;
+  background-position: -28px -14px;
   height: 6px;
   width: 6px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-cls-c {
-  background-position: -83px -14px;
+  background-position: -87px -14px;
   height: 10px;
   width: 10px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-cls-p {
-  background-position: -34px 0;
+  background-position: -24px 0;
   height: 12px;
   width: 12px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-com-s {
-  background-position: -51px -14px;
+  background-position: -65px -14px;
   height: 8px;
   width: 8px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-com {
-  background-position: -20px -14px;
+  background-position: -34px -14px;
   height: 7px;
   width: 9px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-comment-h {
+  background-position: -50px 0;
+  height: 12px;
+  width: 14px;
+}
+
+.icon-comment {
+  background-position: -36px 0;
+  height: 12px;
+  width: 14px;
+}
+
 .icon-d-1-1 {
-  background-position: -106px -28px;
+  background-position: -22px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-d-1-2 {
-  background-position: -62px 0;
+  background-position: -79px 0;
   height: 14px;
   width: 15px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-d-1-3 {
-  background-position: -50px -28px;
+  background-position: -38px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-d-1-4 {
-  background-position: -12px 0;
+  background-position: -94px 0;
   height: 14px;
   width: 10px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-d-1-5 {
-  background-position: -36px -42px;
+  background-position: -24px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-d-1-6 {
-  background-position: -107px -14px;
+  background-position: -97px -14px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-dot {
-  background-position: -14px -14px;
+  background-position: -22px -14px;
   height: 6px;
   width: 6px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-download-a {
-  background-position: -93px -14px;
+  background-position: -80px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-download {
   background-position: -8px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-drag {
-  background-position: -46px 0;
-  height: 14px;
-  width: 16px;
+  background-position: -46px -56px;
+  height: 30px;
+  width: 26px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-eye-g {
-  background-position: -77px 0;
+  background-position: -64px 0;
   height: 14px;
   width: 15px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-eye {
-  background-position: -59px -14px;
+  background-position: -73px -14px;
   height: 10px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-i-1 {
   background-position: 0 -56px;
   height: 22px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-logo {
   background-position: 0 -86px;
   height: 24px;
   width: 125px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-minus {
-  background-position: 0 -28px;
+  background-position: 0 -14px;
   height: 2px;
   width: 8px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-note-b-a {
-  background-position: -50px -42px;
+  background-position: -94px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-note-b {
-  background-position: -64px -42px;
+  background-position: -104px 0;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-note-s {
-  background-position: -36px -14px;
+  background-position: -50px -14px;
   height: 7px;
   width: 7px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-people-g {
-  background-position: -22px -28px;
-  height: 14px;
-  width: 14px;
-}
-
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-people {
   background-position: -36px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-plus {
-  background-position: -43px -14px;
-  height: 8px;
-  width: 8px;
-}
-
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
-.icon-search {
-  background-position: -106px -42px;
+.icon-people {
+  background-position: -50px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-plus {
+  background-position: -57px -14px;
+  height: 8px;
+  width: 8px;
+}
+
+.icon-search {
+  background-position: -78px -28px;
+  height: 14px;
+  width: 14px;
+}
+
 .icon-tab-a {
-  background-position: -65px -56px;
+  background-position: -93px -56px;
   height: 30px;
   width: 20px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-tab {
-  background-position: -44px -56px;
+  background-position: -72px -56px;
   height: 30px;
   width: 21px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-task-b-a {
   background-position: 0 0;
   height: 11px;
   width: 12px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-task-b {
-  background-position: -22px 0;
+  background-position: -12px 0;
   height: 11px;
   width: 12px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-task-s {
-  background-position: -29px -14px;
+  background-position: -43px -14px;
   height: 7px;
   width: 7px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-tool-1 {
-  background-position: -64px -28px;
+  background-position: -106px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-tool-2 {
   background-position: -92px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-tool-3 {
-  background-position: -78px -28px;
+  background-position: -66px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-tool {
-  background-position: -78px -42px;
+  background-position: -52px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-trash-l {
-  background-position: -22px -42px;
+  background-position: -10px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 60, C:/Users/Natalie Reyne/Ruby/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-trash {
-  background-position: -8px -42px;
+  background-position: -111px -14px;
   height: 14px;
   width: 14px;
 }
 
-/* line 6, ../scss/_sprite.scss */
 a.enter-top:after {
-  background-position: 0 -42px;
+  background-position: -8px -14px;
   height: 5px;
   width: 8px;
 }
 
-/* line 10, ../scss/_sprite.scss */
 a.project-top:after {
   background-position: 0 -56px;
   height: 22px;
   width: 14px;
 }
 
-/* line 16, ../scss/_sprite.scss */
 a.tabs-link.t-link:before {
   background-position: 0 0;
   height: 11px;
   width: 12px;
 }
-/* line 19, ../scss/_sprite.scss */
 a.tabs-link.t-link:after {
-  background-position: -65px -56px;
+  background-position: -93px -56px;
   height: 30px;
   width: 20px;
 }
-/* line 25, ../scss/_sprite.scss */
 a.tabs-link.n-link:before {
-  background-position: -64px -42px;
+  background-position: -104px 0;
   height: 14px;
   width: 14px;
 }
-/* line 28, ../scss/_sprite.scss */
 a.tabs-link.n-link:after {
-  background-position: -44px -56px;
+  background-position: -72px -56px;
   height: 30px;
   width: 21px;
 }
 
-/* line 35, ../scss/_sprite.scss */
 a.add-link.add-t:before {
-  background-position: -29px -14px;
+  background-position: -43px -14px;
   height: 7px;
   width: 7px;
 }
-/* line 39, ../scss/_sprite.scss */
 a.add-link.add-n:before {
-  background-position: -36px -14px;
+  background-position: -50px -14px;
   height: 7px;
   width: 7px;
 }
 
-/* line 44, ../scss/_sprite.scss */
 .user-block:after {
-  background-position: -6px -14px;
+  background-position: 0 -28px;
   height: 3px;
   width: 8px;
 }
 
-/* line 51, ../scss/_sprite.scss */
 ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool {
-  background-position: -64px -28px;
+  background-position: -106px -28px;
   height: 14px;
   width: 14px;
 }
-/* line 54, ../scss/_sprite.scss */
 ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover {
   background-position: -92px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 62, ../scss/_sprite.scss */
 a.icon-tool:hover {
   background-position: -92px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 66, ../scss/_sprite.scss */
 .closed a.icon-tool {
-  background-position: -78px -28px;
+  background-position: -66px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 71, ../scss/_sprite.scss */
 .task-b-1 span.minus:after {
-  background-position: 0 -28px;
+  background-position: 0 -14px;
   height: 2px;
   width: 8px;
   top: 7px;
 }
-/* line 75, ../scss/_sprite.scss */
 .task-b-1 span.plus:after {
-  background-position: -43px -14px;
+  background-position: -57px -14px;
   height: 8px;
   width: 8px;
 }
-/* line 78, ../scss/_sprite.scss */
 .task-b-1 span.check:after {
-  background-position: -73px -14px;
+  background-position: -14px -56px;
   height: 10px;
   width: 10px;
   top: 2px;
   left: 2px;
 }
 
-/* line 86, ../scss/_sprite.scss */
 .closed .task-b-1 span.check:after {
-  background-position: -20px -56px;
+  background-position: 0 -42px;
   height: 10px;
   width: 10px;
 }
 
-/* line 91, ../scss/_sprite.scss */
 ul.menu-list li a.item-1:before {
-  background-position: -106px -28px;
+  background-position: -22px -28px;
   height: 14px;
   width: 14px;
 }
-/* line 94, ../scss/_sprite.scss */
 ul.menu-list li a.item-2:before {
-  background-position: -62px 0;
+  background-position: -79px 0;
   height: 14px;
   width: 15px;
 }
-/* line 97, ../scss/_sprite.scss */
 ul.menu-list li a.item-3:before {
-  background-position: -50px -28px;
+  background-position: -38px -42px;
   height: 14px;
   width: 14px;
 }
-/* line 100, ../scss/_sprite.scss */
 ul.menu-list li a.item-4:before {
-  background-position: -12px 0;
+  background-position: -94px 0;
   height: 14px;
   width: 10px;
 }
-/* line 103, ../scss/_sprite.scss */
 ul.menu-list li a.item-5:before {
-  background-position: -36px -42px;
+  background-position: -24px -42px;
   height: 14px;
   width: 14px;
 }
-/* line 106, ../scss/_sprite.scss */
 ul.menu-list li a.item-6:before {
-  background-position: -107px -14px;
+  background-position: -97px -14px;
   height: 14px;
   width: 14px;
 }
-/* line 109, ../scss/_sprite.scss */
 ul.menu-list li a.item-7:before {
-  background-position: -30px -56px;
+  background-position: -64px -28px;
   height: 14px;
   width: 14px;
 }
-/* line 112, ../scss/_sprite.scss */
 ul.menu-list li a.item-8:before {
-  background-position: -8px -42px;
+  background-position: -111px -14px;
   height: 14px;
   width: 14px;
 }
-/* line 115, ../scss/_sprite.scss */
 ul.menu-list li a.item-9:before {
-  background-position: -92px -42px;
+  background-position: -108px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 120, ../scss/_sprite.scss */
 a.icon-eye.active {
-  background-position: -77px 0;
+  background-position: -64px 0;
   height: 14px;
   width: 15px;
   position: relative;
@@ -611,112 +536,101 @@ a.icon-eye.active {
   margin-bottom: -4px;
 }
 
-/* line 127, ../scss/_sprite.scss */
 a.icon-download.active {
-  background-position: -93px -14px;
+  background-position: -80px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 131, ../scss/_sprite.scss */
+a.icon-comment.active {
+  background-position: -50px 0;
+  height: 12px;
+  width: 14px;
+}
+
 a span.all:after {
-  background-position: -92px 0;
+  background-position: -24px -56px;
   height: 14px;
   width: 22px;
 }
 
-/* line 135, ../scss/_sprite.scss */
 a.icon-people.active {
-  background-position: -22px -28px;
+  background-position: -36px -28px;
   height: 14px;
   width: 14px;
 }
 
-/* line 141, ../scss/_sprite.scss */
 .notes-list li .status {
-  background-position: -14px -14px;
+  background-position: -22px -14px;
   height: 6px;
   width: 6px;
 }
-/* line 147, ../scss/_sprite.scss */
 .notes-list li.with-child > .wsc_note .status {
-  background-position: -43px -14px;
+  background-position: -57px -14px;
   height: 8px;
   width: 8px;
   top: 13px;
 }
-/* line 156, ../scss/_sprite.scss */
 .notes-list li.with-child.open > .wsc_note .status {
-  background-position: 0 -28px;
+  background-position: 0 -14px;
   height: 2px;
   width: 8px;
   top: 16px;
 }
-/* line 163, ../scss/_sprite.scss */
 .notes-list li .icon-trash {
-  background-position: -22px -42px;
+  background-position: -10px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 168, ../scss/_sprite.scss */
 .mail-part .icon-trash {
-  background-position: -22px -42px;
+  background-position: -10px -42px;
   height: 14px;
   width: 14px;
 }
 
-/* line 172, ../scss/_sprite.scss */
 .cuselFrameRight {
-  background-position: -14px -56px;
+  background-position: -16px -14px;
   height: 6px;
   width: 6px;
 }
 
-/* line 176, ../scss/_sprite.scss */
 .flag-4:before {
-  background-position: -20px -14px;
+  background-position: -34px -14px;
   height: 7px;
   width: 9px;
 }
 
-/* line 180, ../scss/_sprite.scss */
 .sub-com:before {
-  background-position: -51px -14px;
+  background-position: -65px -14px;
   height: 8px;
   width: 8px;
 }
 
-/* line 2, ../scss/_layout.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 6, ../scss/_layout.scss */
 .left {
   float: left;
 }
 
-/* line 10, ../scss/_layout.scss */
 .right {
   float: right;
 }
 
-/* line 14, ../scss/_layout.scss */
 .clearfix:after {
   clear: both;
   display: block;
   content: "";
 }
 
-/* line 20, ../scss/_layout.scss */
 html {
   height: 100%;
 }
 
-/* line 24, ../scss/_layout.scss */
 body {
   min-height: 100%;
   position: relative;
@@ -724,33 +638,27 @@ body {
   overflow-x: hidden;
 }
 
-/* line 31, ../scss/_layout.scss */
 #wrapper {
   padding-bottom: 80px;
 }
 
-/* line 36, ../scss/_layout.scss */
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 41, ../scss/_layout.scss */
 .container-470 {
   width: 470px;
 }
 
-/* line 45, ../scss/_layout.scss */
 .container-122 {
   width: 122px;
 }
 
-/* line 49, ../scss/_layout.scss */
 .content-part {
   position: relative;
   padding-top: 30px;
 }
-/* line 53, ../scss/_layout.scss */
 .content-part:before {
   display: block;
   height: 3px;
@@ -766,24 +674,22 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
 }
 
-/* line 65, ../scss/_layout.scss */
 .inner-content {
   position: relative;
 }
 
-/* line 1, ../scss/_header.scss */
 header#header {
   margin: 1px 0;
   position: relative;
   height: 50px;
   border-bottom: 2px solid #2b3338;
+  background: #3d464c;
   background: -moz-linear-gradient(#3d464c, #313a3f);
   background: -webkit-linear-gradient(#3d464c, #313a3f);
   background: -o-linear-gradient(#3d464c, #313a3f);
   background: -ms-linear-gradient(#3d464c, #313a3f);
   background: linear-gradient(#3d464c, #313a3f);
 }
-/* line 8, ../scss/_header.scss */
 header#header:after, header#header:before {
   display: block;
   height: 1px;
@@ -792,26 +698,21 @@ header#header:after, header#header:before {
   left: 0;
   position: absolute;
 }
-/* line 17, ../scss/_header.scss */
 header#header:before {
   top: -1px;
   background: url(../img/border.png) 0 0 transparent repeat-x;
 }
-/* line 22, ../scss/_header.scss */
 header#header:after {
   bottom: -3px;
   background: url(../img/border-b.png) 0 0 transparent repeat-x;
 }
-/* line 28, ../scss/_header.scss */
 header#header .logo h1, header#header .logo a {
   color: transparent;
 }
-/* line 31, ../scss/_header.scss */
 header#header .logo h1 span, header#header .logo a span {
   display: block;
   margin-top: 14px;
 }
-/* line 39, ../scss/_header.scss */
 header#header .r-block > div {
   border-right: 1px solid #394147;
   position: relative;
@@ -819,7 +720,6 @@ header#header .r-block > div {
   padding: 0 20px;
   line-height: 48px;
 }
-/* line 46, ../scss/_header.scss */
 header#header .r-block > div span, header#header .r-block > div a {
   color: #92a0a9;
   font-size: 1em;
@@ -827,7 +727,6 @@ header#header .r-block > div span, header#header .r-block > div a {
   text-decoration: none;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
 }
-/* line 58, ../scss/_header.scss */
 header#header .r-block > div:after {
   display: block;
   height: 100%;
@@ -838,11 +737,9 @@ header#header .r-block > div:after {
   position: absolute;
   background: #454e53;
 }
-/* line 70, ../scss/_header.scss */
 header#header .r-block .search-block {
   position: relative;
 }
-/* line 73, ../scss/_header.scss */
 header#header .r-block .search-block input[type=text] {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -862,30 +759,24 @@ header#header .r-block .search-block input[type=text] {
   font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
   color: #f1f1f1;
 }
-/* line 88, ../scss/_header.scss */
 header#header .r-block .search-block input[type=text]:-moz-placeholder {
   color: #a5a5a5;
 }
-/* line 92, ../scss/_header.scss */
 header#header .r-block .search-block input[type=text]::-moz-placeholder {
   color: #a5a5a5;
 }
-/* line 96, ../scss/_header.scss */
 header#header .r-block .search-block input[type=text]::-webkit-input-placeholder {
   color: #a5a5a5;
 }
-/* line 100, ../scss/_header.scss */
 header#header .r-block .search-block input[type=text]:-ms-input-placeholder {
   color: #a5a5a5;
 }
-/* line 105, ../scss/_header.scss */
 header#header .r-block .search-block input[type=submit] {
   position: absolute;
   right: 25px;
   top: 18px;
   border: none;
 }
-/* line 115, ../scss/_header.scss */
 header#header .r-block .enter-block img {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -896,12 +787,10 @@ header#header .r-block .enter-block img {
   position: relative;
   top: 10px;
 }
-/* line 122, ../scss/_header.scss */
 header#header .r-block .enter-block a.enter-top {
   position: relative;
   padding: 17px 23px 17px 0;
 }
-/* line 126, ../scss/_header.scss */
 header#header .r-block .enter-block a.enter-top:after {
   display: inline-block;
   position: absolute;
@@ -909,7 +798,6 @@ header#header .r-block .enter-block a.enter-top:after {
   top: 24px;
   content: "";
 }
-/* line 135, ../scss/_header.scss */
 header#header .r-block .enter-block ul.menu-list {
   position: absolute;
   top: 51px;
@@ -924,7 +812,6 @@ header#header .r-block .enter-block ul.menu-list {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 145, ../scss/_header.scss */
 header#header .r-block .enter-block ul.menu-list.hide {
   height: 0 !important;
   -webkit-transition: height 0.3s ease-out;
@@ -933,12 +820,10 @@ header#header .r-block .enter-block ul.menu-list.hide {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 150, ../scss/_header.scss */
 header#header .r-block .enter-block ul.menu-list li {
   display: block;
   position: relative;
 }
-/* line 154, ../scss/_header.scss */
 header#header .r-block .enter-block ul.menu-list li:after {
   display: block;
   position: absolute;
@@ -949,7 +834,6 @@ header#header .r-block .enter-block ul.menu-list li:after {
   content: "";
   background: rgba(0, 0, 0, 0.15);
 }
-/* line 165, ../scss/_header.scss */
 header#header .r-block .enter-block ul.menu-list li a {
   display: block;
   height: 41px;
@@ -963,7 +847,6 @@ header#header .r-block .enter-block ul.menu-list li a {
   border-left: 40px solid #2a3136;
   position: relative;
 }
-/* line 182, ../scss/_header.scss */
 header#header .r-block .enter-block ul.menu-list li a:before {
   display: block;
   content: "";
@@ -971,22 +854,18 @@ header#header .r-block .enter-block ul.menu-list li a:before {
   left: -25px;
   position: absolute;
 }
-/* line 190, ../scss/_header.scss */
 header#header .r-block .enter-block ul.menu-list li a:hover {
   color: #4abba4;
 }
 
-/* line 1, ../scss/_project-zone.scss */
 .project-zone {
   background: url(../img/project-bg.jpg) 50% 0 transparent no-repeat;
   height: 84px;
 }
-/* line 5, ../scss/_project-zone.scss */
 .project-zone .project-name {
   padding-top: 30px;
   position: relative;
 }
-/* line 9, ../scss/_project-zone.scss */
 .project-zone .project-name a.project-top {
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1.917em;
@@ -997,7 +876,6 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   padding-right: 24px;
   position: relative;
 }
-/* line 23, ../scss/_project-zone.scss */
 .project-zone .project-name a.project-top:after {
   display: inline-block;
   position: absolute;
@@ -1005,15 +883,12 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   top: 7px;
   content: "";
 }
-/* line 33, ../scss/_project-zone.scss */
 .project-zone nav.project-nav {
   padding-top: 30px;
 }
-/* line 35, ../scss/_project-zone.scss */
 .project-zone nav.project-nav ul {
   overflow: hidden;
 }
-/* line 38, ../scss/_project-zone.scss */
 .project-zone nav.project-nav ul li {
   display: block;
   float: left;
@@ -1022,7 +897,6 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   height: 20px;
   line-height: 20px;
 }
-/* line 46, ../scss/_project-zone.scss */
 .project-zone nav.project-nav ul li:after {
   display: block;
   width: 0;
@@ -1036,15 +910,12 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=5);
   opacity: 0.05;
 }
-/* line 59, ../scss/_project-zone.scss */
 .project-zone nav.project-nav ul li:last-child {
   padding-right: 0;
 }
-/* line 62, ../scss/_project-zone.scss */
 .project-zone nav.project-nav ul li:last-child::after {
   display: none;
 }
-/* line 70, ../scss/_project-zone.scss */
 .project-zone nav.project-nav a {
   color: white;
   text-transform: uppercase;
@@ -1055,12 +926,10 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 83, ../scss/_project-zone.scss */
 .project-zone nav.project-nav a:hover, .project-zone nav.project-nav a.active {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
-/* line 89, ../scss/_project-zone.scss */
 .project-zone .menu-list {
   position: absolute;
   right: -158px;
@@ -1076,7 +945,6 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 100, ../scss/_project-zone.scss */
 .project-zone .menu-list.hide {
   height: 0 !important;
   -webkit-transition: height 0.3s ease-out;
@@ -1085,7 +953,6 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 105, ../scss/_project-zone.scss */
 .project-zone .menu-list:after {
   border-bottom: 4px outset transparent;
   border-right: 4px solid #2f373c;
@@ -1099,13 +966,11 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   left: -4px;
   top: 17px;
 }
-/* line 111, ../scss/_project-zone.scss */
 .project-zone .menu-list li {
   display: block;
   border-bottom: 1px solid #2a3135;
   background: #2f373c;
 }
-/* line 115, ../scss/_project-zone.scss */
 .project-zone .menu-list li:first-child {
   -webkit-border-radius: 2px 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
@@ -1113,7 +978,6 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   -o-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0;
 }
-/* line 118, ../scss/_project-zone.scss */
 .project-zone .menu-list li:last-child {
   -webkit-border-radius: 0 0 2px 2px;
   -moz-border-radius: 0 0 2px 2px;
@@ -1122,7 +986,6 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   border-radius: 0 0 2px 2px;
   margin-bottom: 1px;
 }
-/* line 123, ../scss/_project-zone.scss */
 .project-zone .menu-list li a {
   display: block;
   padding: 15px 20px;
@@ -1133,18 +996,15 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   font-size: 0.833em;
   color: #616c73;
 }
-/* line 137, ../scss/_project-zone.scss */
 .project-zone .menu-list li a:hover {
   color: #4abba4;
 }
 
-/* line 2, ../scss/_tabs.scss */
 .tabs-nav a {
   text-decoration: none;
   text-transform: uppercase;
   z-index: 1;
 }
-/* line 9, ../scss/_tabs.scss */
 .tabs-nav a.tabs-link {
   display: block;
   color: #b1af9d;
@@ -1162,7 +1022,6 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   padding: 0 20px 0 30px;
   position: relative;
 }
-/* line 25, ../scss/_tabs.scss */
 .tabs-nav a.tabs-link:after {
   display: block;
   right: 0;
@@ -1172,11 +1031,9 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   top: -1px;
   right: -20px;
 }
-/* line 35, ../scss/_tabs.scss */
 .tabs-nav a.tabs-link.active {
   z-index: 10;
 }
-/* line 40, ../scss/_tabs.scss */
 .tabs-nav a.tabs-link:before {
   display: block;
   content: "";
@@ -1184,68 +1041,56 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
   top: 10px;
   left: 10px;
 }
-/* line 48, ../scss/_tabs.scss */
 .tabs-nav a.tabs-link.t-link {
   background: #f7f7f7;
   color: #6d6d6d;
 }
-/* line 53, ../scss/_tabs.scss */
 .tabs-nav a.tabs-link.n-link {
   margin-right: 40px;
   background: #fef9d5;
 }
 
-/* line 60, ../scss/_tabs.scss */
 .tabs-content {
   background: #f7f7f7;
   border: 1px solid #e0e0e0;
   margin-top: -1px;
 }
-/* line 66, ../scss/_tabs.scss */
 .tabs-content .tab {
   display: none;
 }
-/* line 69, ../scss/_tabs.scss */
 .tabs-content .tab.active {
   display: block;
   width: 100%;
 }
 
-/* line 76, ../scss/_tabs.scss */
 .tab-footer {
   padding: 3px 55px;
   height: auto;
   border-top: 1px solid #e0e0e0;
   background: #f7f7f7;
 }
-/* line 82, ../scss/_tabs.scss */
 .tab-footer a {
   line-height: 1em;
 }
 
-/* line 88, ../scss/_tabs.scss */
 .wsc_task a.icon-drag, .wsc_note a.icon-drag {
   display: block;
   position: absolute;
-  right: -16px;
-  top: 30px;
+  right: -26px;
+  top: 10px;
   display: none;
 }
-/* line 97, ../scss/_tabs.scss */
 .wsc_task:hover a.icon-drag, .wsc_note:hover a.icon-drag {
   display: block;
 }
 
-/* line 104, ../scss/_tabs.scss */
 .wsc_note a.icon-drag {
-  top: 10px;
+  top: 5px;
 }
 
-/* line 3, ../scss/_task_list.scss */
 ul.task-list > li {
   background: #f2f2f2;
 }
-/* line 8, ../scss/_task_list.scss */
 ul.task-list > li.closed:after {
   display: block;
   width: 35px;
@@ -1259,26 +1104,21 @@ ul.task-list > li.closed:after {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 21, ../scss/_task_list.scss */
 ul.task-list > li.closed .task-b-2 {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 25, ../scss/_task_list.scss */
 ul.task-list > li.closed .task-b-3 .user-block, ul.task-list > li.closed .task-b-3 .time-block {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
   opacity: 0.5;
 }
-/* line 32, ../scss/_task_list.scss */
 ul.task-list ul {
   position: relative;
 }
-/* line 38, ../scss/_task_list.scss */
 ul.task-list li {
   min-height: 62px;
   position: relative;
 }
-/* line 42, ../scss/_task_list.scss */
 ul.task-list li:before {
   display: block;
   width: 1200px;
@@ -1289,15 +1129,12 @@ ul.task-list li:before {
   right: 0;
   content: "";
 }
-/* line 53, ../scss/_task_list.scss */
 ul.task-list li:last-child {
   border: 0;
 }
-/* line 57, ../scss/_task_list.scss */
 ul.task-list li .wsc_task {
   position: relative;
 }
-/* line 59, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 {
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
@@ -1305,17 +1142,14 @@ ul.task-list li .wsc_task .task-b-2 {
   padding: 13px 15px;
   margin: 0 190px 0 35px;
 }
-/* line 68, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name {
   color: #5c5c5c;
   padding-bottom: 5px;
 }
-/* line 75, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.name {
   margin-right: 18px;
   font-size: 1.083em;
 }
-/* line 82, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -1332,36 +1166,29 @@ ul.task-list li .wsc_task .task-b-2 .t-name span.flag {
   margin-right: 3px;
   display: inline-block;
 }
-/* line 96, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-1 {
   background: #42baa1;
 }
-/* line 100, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-2 {
   background: #f28448;
 }
-/* line 104, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-5 {
   color: #42baa1;
 }
-/* line 107, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-3 {
   color: #a7a7a7;
 }
-/* line 110, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-4 {
   color: #a7a7a7;
   padding-left: 10px;
   position: relative;
 }
-/* line 115, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-4:before {
   position: absolute;
   left: 0;
   top: 4px;
   content: "";
 }
-/* line 127, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 {
   width: 188px;
   padding: 16px 0 0 14px;
@@ -1369,20 +1196,17 @@ ul.task-list li .wsc_task .task-b-3 {
   right: 0;
   top: 0;
 }
-/* line 134, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .user-block {
   width: 72px;
   overflow: hidden;
   position: relative;
 }
-/* line 139, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .user-block:after {
   top: 14px;
   left: 32px;
   position: absolute;
   content: "";
 }
-/* line 146, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .user-block a {
   text-decoration: none;
   float: left;
@@ -1393,20 +1217,19 @@ ul.task-list li .wsc_task .task-b-3 .user-block a {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 152, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .user-block a:last-child {
   float: right;
 }
-/* line 158, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .time-block {
-  padding: 0 13px;
+  padding: 0 20px;
+  margin: 0 -7px;
   color: #b5b5b5;
   font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1.667em;
   position: relative;
   padding-top: 6px;
+  z-index: 10;
 }
-/* line 167, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .time-block a {
   display: none;
   position: absolute;
@@ -1431,46 +1254,36 @@ ul.task-list li .wsc_task .task-b-3 .time-block a {
   -moz-box-shadow: 0 0 0 1px #2eb398;
   box-shadow: 0 0 0 1px #2eb398;
 }
-/* line 187, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .time-block a.minus {
-  left: -5px;
+  left: 3px;
   line-height: 8px;
 }
-/* line 192, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 .time-block a.plus {
-  right: -5px;
+  right: 3px;
 }
-/* line 198, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3 a.icon-tool {
   display: block;
   margin-top: 7px;
 }
-/* line 204, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3.active .user-block, ul.task-list li .wsc_task .task-b-3.active .tools-block {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
   opacity: 0.1;
 }
-/* line 209, ../scss/_task_list.scss */
 ul.task-list li .wsc_task .task-b-3.active .time-block a {
   display: block;
 }
-/* line 217, ../scss/_task_list.scss */
 ul.task-list li.wsc_task_selected {
   background: #f9f9f9;
 }
-/* line 220, ../scss/_task_list.scss */
 ul.task-list li.wsc_task_selected .task-b-2 {
   background: white;
 }
-/* line 225, ../scss/_task_list.scss */
 ul.task-list li.wsc_task_selected .task-b-3 .time-block {
   color: #555555;
 }
-/* line 232, ../scss/_task_list.scss */
 ul.task-list li.open.with-child .wsc_task {
   position: relative;
 }
-/* line 234, ../scss/_task_list.scss */
 ul.task-list li.open.with-child .wsc_task:before {
   display: block;
   width: 20px;
@@ -1482,7 +1295,6 @@ ul.task-list li.open.with-child .wsc_task:before {
   content: "";
   z-index: 5;
 }
-/* line 247, ../scss/_task_list.scss */
 ul.task-list li.open.with-child > .task-b-1:before {
   display: block;
   width: 0;
@@ -1494,7 +1306,6 @@ ul.task-list li.open.with-child > .task-b-1:before {
   content: "";
   z-index: 1;
 }
-/* line 260, ../scss/_task_list.scss */
 ul.task-list li.open.with-child > .wsc_task > .task-b-1:after {
   display: block;
   width: 0;
@@ -1506,15 +1317,12 @@ ul.task-list li.open.with-child > .wsc_task > .task-b-1:after {
   content: "";
   z-index: 1;
 }
-/* line 276, ../scss/_task_list.scss */
 ul.task-list li.sub-li {
   margin-left: 35px;
 }
-/* line 281, ../scss/_task_list.scss */
 ul.task-list li.sub-li:last-child > .wsc_task > .task-b-1:before {
   height: 32px;
 }
-/* line 289, ../scss/_task_list.scss */
 ul.task-list li.sub-li .task-b-1:before {
   display: block;
   width: 0;
@@ -1526,7 +1334,6 @@ ul.task-list li.sub-li .task-b-1:before {
   content: "";
   z-index: 1;
 }
-/* line 302, ../scss/_task_list.scss */
 ul.task-list li.sub-li .task-b-1 span:before {
   display: block;
   width: 20px;
@@ -1539,7 +1346,6 @@ ul.task-list li.sub-li .task-b-1 span:before {
   content: "";
   z-index: 1;
 }
-/* line 317, ../scss/_task_list.scss */
 ul.task-list ul.menu-list {
   position: absolute;
   top: 39px;
@@ -1555,7 +1361,6 @@ ul.task-list ul.menu-list {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 329, ../scss/_task_list.scss */
 ul.task-list ul.menu-list.hide {
   height: 0 !important;
   -webkit-transition: height 0.3s ease-out;
@@ -1564,11 +1369,9 @@ ul.task-list ul.menu-list.hide {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 333, ../scss/_task_list.scss */
 ul.task-list ul.menu-list.hide:after {
   display: none;
 }
-/* line 338, ../scss/_task_list.scss */
 ul.task-list ul.menu-list:after {
   border-bottom: 4px solid #2f373c;
   border-left: 4px outset transparent;
@@ -1582,14 +1385,12 @@ ul.task-list ul.menu-list:after {
   left: 68px;
   top: 1px;
 }
-/* line 344, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li {
   display: block;
   position: relative;
   background: #2f373c;
   min-height: 41px;
 }
-/* line 349, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:first-child {
   -webkit-border-radius: 2px 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
@@ -1597,7 +1398,6 @@ ul.task-list ul.menu-list li:first-child {
   -o-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0;
 }
-/* line 352, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:last-child {
   -webkit-border-radius: 0 0 2px 2px;
   -moz-border-radius: 0 0 2px 2px;
@@ -1606,11 +1406,9 @@ ul.task-list ul.menu-list li:last-child {
   border-radius: 0 0 2px 2px;
   margin-bottom: 1px;
 }
-/* line 356, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:before {
   display: none;
 }
-/* line 360, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li:after {
   display: block;
   position: absolute;
@@ -1621,7 +1419,6 @@ ul.task-list ul.menu-list li:after {
   content: "";
   background: rgba(0, 0, 0, 0.15);
 }
-/* line 371, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li a {
   display: block;
   height: 41px;
@@ -1635,7 +1432,6 @@ ul.task-list ul.menu-list li a {
   border-left: 40px solid #2a3136;
   position: relative;
 }
-/* line 388, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li a:before {
   display: block;
   content: "";
@@ -1643,18 +1439,15 @@ ul.task-list ul.menu-list li a:before {
   left: -25px;
   position: absolute;
 }
-/* line 396, ../scss/_task_list.scss */
 ul.task-list ul.menu-list li a:hover {
   color: #4abba4;
 }
 
-/* line 405, ../scss/_task_list.scss */
 .task-b-1 {
   position: relative;
   width: 35px;
   min-height: 62px;
 }
-/* line 410, ../scss/_task_list.scss */
 .task-b-1 span {
   width: 16px;
   height: 16px;
@@ -1667,7 +1460,6 @@ ul.task-list ul.menu-list li a:hover {
   margin-left: -8px;
   z-index: 10;
 }
-/* line 422, ../scss/_task_list.scss */
 .task-b-1 span:after {
   display: block;
   position: absolute;
@@ -1676,7 +1468,6 @@ ul.task-list ul.menu-list li a:hover {
   top: 3px;
 }
 
-/* line 433, ../scss/_task_list.scss */
 .wsc_task_selected .task-b-1 span {
   background: #f9f9f9;
   -webkit-box-shadow: 0 0 0 3px #f9f9f9;
@@ -1684,22 +1475,22 @@ ul.task-list ul.menu-list li a:hover {
   box-shadow: 0 0 0 3px #f9f9f9;
 }
 
-/* line 440, ../scss/_task_list.scss */
 .closed .task-b-1 span {
   border-color: rgba(42, 156, 133, 0.25);
 }
 
-/* line 1, ../scss/_comments.scss */
+.sub-task, .sub-note {
+  display: none;
+}
+
 .comment-block {
   padding: 25px 10px 0 20px;
 }
-/* line 4, ../scss/_comments.scss */
 .comment-block .comment-part {
   padding-bottom: 10px;
   min-height: 30px;
   overflow: hidden;
 }
-/* line 9, ../scss/_comments.scss */
 .comment-block .comment-part .comment-t {
   background: #f9f9f9;
   padding: 7px 45px 7px 15px;
@@ -1711,21 +1502,18 @@ ul.task-list ul.menu-list li a:hover {
   border-radius: 2px;
   position: relative;
 }
-/* line 16, ../scss/_comments.scss */
 .comment-block .comment-part .comment-t a.icon-cls-c {
   position: absolute;
   top: 10px;
   right: 10px;
   display: block;
 }
-/* line 25, ../scss/_comments.scss */
 .comment-block .sub-com {
   clear: both;
   margin-left: 37px;
   padding-top: 10px;
   position: relative;
 }
-/* line 31, ../scss/_comments.scss */
 .comment-block .sub-com:before {
   display: block;
   position: absolute;
@@ -1734,25 +1522,45 @@ ul.task-list ul.menu-list li a:hover {
   content: "";
 }
 
-/* line 1, ../scss/_notes-list.scss */
+.notes-tab .comment-block {
+  border-top: 1px dotted #e0e0e0;
+  margin-bottom: -1px;
+  padding-top: 5px;
+  margin-top: 25px;
+  position: relative;
+}
+.notes-tab .comment-block:after {
+  width: 100%;
+  height: 1px;
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background: #fef9d5;
+}
+.notes-tab .comment-block .comment-part .comment-t {
+  background: none;
+}
+.notes-tab .comment-block .comment-part .border-c {
+  overflow: hidden;
+  border-bottom: 1px dotted #e0e0e0;
+  padding: 1px 0 4px;
+}
+
 .notes-list {
   background: #fef9d5;
   font-size: 1.25em;
   line-height: 1.333em;
 }
-/* line 6, ../scss/_notes-list.scss */
 .notes-list li {
   position: relative;
 }
-/* line 9, ../scss/_notes-list.scss */
 .notes-list li.wsc_task_selected {
   color: #777777;
 }
-/* line 13, ../scss/_notes-list.scss */
 .notes-list li li {
   margin-left: 35px;
 }
-/* line 18, ../scss/_notes-list.scss */
 .notes-list li:before {
   display: block;
   width: 1200px;
@@ -1763,13 +1571,11 @@ ul.task-list ul.menu-list li a:hover {
   right: 0;
   content: "";
 }
-/* line 28, ../scss/_notes-list.scss */
 .notes-list li .wsc_note {
   padding: 8px 60px 10px 35px;
   position: relative;
   min-height: 40px;
 }
-/* line 33, ../scss/_notes-list.scss */
 .notes-list li .wsc_note:before {
   display: block;
   width: 15px;
@@ -1781,7 +1587,6 @@ ul.task-list ul.menu-list li a:hover {
   position: absolute;
   z-index: 3;
 }
-/* line 45, ../scss/_notes-list.scss */
 .notes-list li .status {
   display: block;
   position: absolute;
@@ -1789,19 +1594,16 @@ ul.task-list ul.menu-list li a:hover {
   left: 17px;
   z-index: 5;
 }
-/* line 53, ../scss/_notes-list.scss */
 .notes-list li .tools-block {
   position: absolute;
   right: 5px;
   top: 13px;
 }
-/* line 58, ../scss/_notes-list.scss */
 .notes-list li .tools-block a {
   display: block;
   margin-right: 10px;
   float: left;
 }
-/* line 66, ../scss/_notes-list.scss */
 .notes-list li.open:after {
   display: block;
   position: absolute;
@@ -1814,29 +1616,24 @@ ul.task-list ul.menu-list li a:hover {
   z-index: 0;
 }
 
-/* line 82, ../scss/_notes-list.scss */
 .notes-tab .tab-footer {
   background: #fef9d5;
 }
 
-/* line 1, ../scss/_r-menu.scss */
 .r-menu {
   position: absolute;
   left: -25px;
   top: 30px;
 }
-/* line 8, ../scss/_r-menu.scss */
 .r-menu > ul > li {
   display: block;
   padding: 2px 0;
   margin-bottom: 4px;
   position: relative;
 }
-/* line 14, ../scss/_r-menu.scss */
 .r-menu > ul > li > a {
   display: block;
 }
-/* line 18, ../scss/_r-menu.scss */
 .r-menu > ul > li .name-hide {
   position: absolute;
   right: 100%;
@@ -1848,7 +1645,6 @@ ul.task-list ul.menu-list li a:hover {
   text-transform: uppercase;
   white-space: nowrap;
 }
-/* line 34, ../scss/_r-menu.scss */
 .r-menu .menu-list {
   position: absolute;
   right: -190px;
@@ -1864,7 +1660,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 45, ../scss/_r-menu.scss */
 .r-menu .menu-list.hide {
   height: 0 !important;
   -webkit-transition: height 0.3s ease-out;
@@ -1873,7 +1668,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: height 0.3s ease-out 0s;
   transition: height 0.3s ease-out 0s;
 }
-/* line 50, ../scss/_r-menu.scss */
 .r-menu .menu-list:after {
   border-bottom: 4px outset transparent;
   border-right: 4px solid #2f373c;
@@ -1887,14 +1681,12 @@ ul.task-list ul.menu-list li a:hover {
   left: -4px;
   top: 12px;
 }
-/* line 56, ../scss/_r-menu.scss */
 .r-menu .menu-list li {
   display: block;
   background: #2f373c;
   position: relative;
   overflow: hidden;
 }
-/* line 62, ../scss/_r-menu.scss */
 .r-menu .menu-list li:after {
   display: block;
   position: absolute;
@@ -1905,7 +1697,6 @@ ul.task-list ul.menu-list li a:hover {
   content: "";
   background: rgba(0, 0, 0, 0.15);
 }
-/* line 73, ../scss/_r-menu.scss */
 .r-menu .menu-list li:first-child {
   -webkit-border-radius: 2px 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
@@ -1913,11 +1704,9 @@ ul.task-list ul.menu-list li a:hover {
   -o-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0;
 }
-/* line 76, ../scss/_r-menu.scss */
 .r-menu .menu-list li:first-child a span.name {
   line-height: 1em;
 }
-/* line 80, ../scss/_r-menu.scss */
 .r-menu .menu-list li:last-child {
   -webkit-border-radius: 0 0 2px 2px;
   -moz-border-radius: 0 0 2px 2px;
@@ -1925,11 +1714,9 @@ ul.task-list ul.menu-list li a:hover {
   -o-border-radius: 0 0 2px 2px;
   border-radius: 0 0 2px 2px;
 }
-/* line 83, ../scss/_r-menu.scss */
 .r-menu .menu-list li:last-child::after {
   display: none;
 }
-/* line 88, ../scss/_r-menu.scss */
 .r-menu .menu-list li a {
   display: block;
   line-height: 1em;
@@ -1939,25 +1726,21 @@ ul.task-list ul.menu-list li a:hover {
   font-size: 0.833em;
   color: #616c73;
 }
-/* line 101, ../scss/_r-menu.scss */
 .r-menu .menu-list li a:hover {
   color: #4abba4;
 }
-/* line 105, ../scss/_r-menu.scss */
 .r-menu .menu-list li a span {
   display: block;
   min-height: 31px;
   padding: 10px;
   line-height: 30px;
 }
-/* line 111, ../scss/_r-menu.scss */
 .r-menu .menu-list li a span.avatar {
   width: 50px;
   background: #2a3136;
   position: relative;
   float: left;
 }
-/* line 117, ../scss/_r-menu.scss */
 .r-menu .menu-list li a span.avatar img {
   display: block;
   -webkit-border-radius: 3px;
@@ -1966,7 +1749,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 122, ../scss/_r-menu.scss */
 .r-menu .menu-list li a span.avatar.all:after {
   display: block;
   position: absolute;
@@ -1974,11 +1756,9 @@ ul.task-list ul.menu-list li a:hover {
   top: 10px;
   content: "";
 }
-/* line 131, ../scss/_r-menu.scss */
 .r-menu .menu-list li a span.name {
   margin-left: 60px;
 }
-/* line 139, ../scss/_r-menu.scss */
 .r-menu.fixed {
   position: fixed;
   top: 10px;
@@ -1986,14 +1766,12 @@ ul.task-list ul.menu-list li a:hover {
   left: 0;
   z-index: 100;
 }
-/* line 146, ../scss/_r-menu.scss */
 .r-menu.fixed > ul {
   position: absolute;
   left: 50%;
   margin-left: -625px;
 }
 
-/* line 1, ../scss/_footer.scss */
 #footer {
   position: absolute;
   bottom: 0;
@@ -2007,7 +1785,6 @@ ul.task-list ul.menu-list li a:hover {
   color: #999999;
   line-height: 49px;
 }
-/* line 16, ../scss/_footer.scss */
 #footer:before {
   display: block;
   height: 3px;
@@ -2022,22 +1799,18 @@ ul.task-list ul.menu-list li a:hover {
   background: -ms-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.15));
 }
-/* line 29, ../scss/_footer.scss */
 #footer .footer-menu li {
   display: inline;
   margin: 0 3px 0 -2px;
 }
-/* line 33, ../scss/_footer.scss */
 #footer .footer-menu li:after {
   display: inline;
   content: "/";
   color: #222222;
 }
-/* line 39, ../scss/_footer.scss */
 #footer .footer-menu li:last-child::after {
   display: none;
 }
-/* line 43, ../scss/_footer.scss */
 #footer .footer-menu li a {
   text-transform: uppercase;
   text-decoration: none;
@@ -2045,22 +1818,18 @@ ul.task-list ul.menu-list li a:hover {
   color: #999999;
 }
 
-/* line 1, ../scss/_mess.scss */
 .mess-block {
   position: fixed;
   right: 20px;
   bottom: 40px;
 }
-/* line 6, ../scss/_mess.scss */
 .mess-block ul {
   width: 220px;
 }
-/* line 9, ../scss/_mess.scss */
 .mess-block ul li {
   display: block;
   margin-bottom: 13px;
 }
-/* line 13, ../scss/_mess.scss */
 .mess-block ul li a {
   display: block;
   background: #2f373c;
@@ -2078,19 +1847,16 @@ ul.task-list ul.menu-list li a:hover {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 2em;
 }
-/* line 28, ../scss/_mess.scss */
 .mess-block ul li a span.icon-close {
   display: block;
   position: absolute;
   top: 4px;
   right: 4px;
 }
-/* line 35, ../scss/_mess.scss */
 .mess-block ul li a:hover {
   background: #2eb597;
   color: #ffffff;
 }
-/* line 40, ../scss/_mess.scss */
 .mess-block ul li a.cls-all {
   font-size: 1.25em;
   color: #ffffff;
@@ -2100,7 +1866,6 @@ ul.task-list ul.menu-list li a:hover {
   line-height: 29px;
 }
 
-/* line 1, ../scss/_popup.scss */
 .popup {
   position: fixed;
   top: 135px;
@@ -2108,39 +1873,31 @@ ul.task-list ul.menu-list li a:hover {
   z-index: 500;
   display: none;
 }
-/* line 8, ../scss/_popup.scss */
 .popup.profile-popup, .popup.invite-popup, .popup.reports-popup {
   width: 560px;
   margin-left: -280px;
 }
-/* line 13, ../scss/_popup.scss */
 .popup.login-popup {
   width: 650px;
   margin-left: -325px;
 }
-/* line 17, ../scss/_popup.scss */
 .popup.login-popup .popup-inner {
   padding: 55px 100px 60;
 }
-/* line 22, ../scss/_popup.scss */
 .popup.manage-popup {
   width: 720px;
   margin-left: -360px;
 }
-/* line 26, ../scss/_popup.scss */
 .popup.manage-popup .popup-inner {
   padding: 55px 60px 60px;
 }
-/* line 31, ../scss/_popup.scss */
 .popup.settings-popup {
   width: 750px;
   margin-left: -375px;
 }
-/* line 35, ../scss/_popup.scss */
 .popup.settings-popup .popup-inner {
   padding: 55px 60px 60px;
 }
-/* line 40, ../scss/_popup.scss */
 .popup .popup-inner {
   background: #dfdfdf;
   padding: 55px 55px 60px;
@@ -2151,18 +1908,15 @@ ul.task-list ul.menu-list li a:hover {
   border-radius: 3px;
   position: relative;
 }
-/* line 46, ../scss/_popup.scss */
 .popup .popup-inner .icon-cls-p {
   position: absolute;
   top: 30px;
   right: 30px;
 }
-/* line 52, ../scss/_popup.scss */
 .popup .popup-inner .popup-head {
   position: relative;
   padding-bottom: 15px;
 }
-/* line 56, ../scss/_popup.scss */
 .popup .popup-inner .popup-head h1 {
   color: #333333;
   font-size: 4.333em;
@@ -2170,7 +1924,6 @@ ul.task-list ul.menu-list li a:hover {
   line-height: 1em;
   padding-bottom: 25px;
 }
-/* line 66, ../scss/_popup.scss */
 .popup .popup-inner .popup-head h2 {
   font-size: 2.333em;
   font-weight: 300;
@@ -2179,12 +1932,10 @@ ul.task-list ul.menu-list li a:hover {
   text-shadow: 1px 0 1px #ffffff;
   line-height: 1em;
 }
-/* line 80, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .form-part {
   padding-bottom: 20px;
   position: relative;
 }
-/* line 85, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input {
   display: block;
   padding: 0 20px;
@@ -2203,52 +1954,41 @@ ul.task-list ul.menu-list li a:hover {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 101, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input:-moz-placeholder {
   color: #acacac;
   font-weight: 400;
 }
-/* line 106, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input::-moz-placeholder {
   color: #acacac;
   font-weight: 400;
 }
-/* line 111, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input::-webkit-input-placeholder {
   color: #acacac;
   font-weight: 400;
 }
-/* line 116, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input:-ms-input-placeholder {
   color: #acacac;
   font-weight: 400;
 }
-/* line 121, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input.error {
   background: #ffcccd;
   border-color: #bf999a;
 }
-/* line 125, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input.error:-moz-placeholder {
   color: #c19e9e;
 }
-/* line 129, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input.error::-moz-placeholder {
   color: #c19e9e;
 }
-/* line 133, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input.error::-webkit-input-placeholder {
   color: #c19e9e;
 }
-/* line 137, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input.error:-ms-input-placeholder {
   color: #c19e9e;
 }
-/* line 142, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .base-input.m-input {
   width: 365px;
 }
-/* line 147, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .button {
   display: block;
   border: none;
@@ -2265,7 +2005,6 @@ ul.task-list ul.menu-list li a:hover {
   border-radius: 2px;
   cursor: pointer;
 }
-/* line 161, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .button.blue-button {
   background: #2db3e9;
   -webkit-transition: all 0.5s ease-out;
@@ -2274,7 +2013,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
 }
-/* line 165, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .button.blue-button:hover {
   background: #1099d0;
   -webkit-transition: all 0.5s ease-out;
@@ -2283,7 +2021,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
 }
-/* line 171, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .button.grey-button {
   background: #bbbbbb;
   -webkit-transition: all 0.5s ease-out;
@@ -2292,7 +2029,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
 }
-/* line 175, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .button.grey-button:hover {
   background: #a5a2a2;
   -webkit-transition: all 0.5s ease-out;
@@ -2301,12 +2037,10 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
 }
-/* line 183, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .link-block .button {
   margin-right: 10px;
   float: left;
 }
-/* line 188, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .link-block a {
   line-height: 40px;
   text-decoration: none;
@@ -2319,7 +2053,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: color 0.5s ease-out 0s;
   transition: color 0.5s ease-out 0s;
 }
-/* line 198, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .link-block a:hover {
   color: #2db3e9;
   -webkit-transition: all 0.5s ease-out;
@@ -2328,7 +2061,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-transition: all 0.5s ease-out 0s;
   transition: all 0.5s ease-out 0s;
 }
-/* line 205, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .form-part > label {
   display: block;
   color: #666666;
@@ -2337,20 +2069,16 @@ ul.task-list ul.menu-list li a:hover {
   font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 40px;
 }
-/* line 215, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .form-part > label.s-label {
   width: 50px;
 }
-/* line 219, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .form-part > label.m-label {
   width: 90px;
 }
-/* line 223, ../scss/_popup.scss */
 .popup .popup-inner .popup-body .form-part > label.l-label {
   width: 145px;
 }
 
-/* line 231, ../scss/_popup.scss */
 #fade {
   position: fixed;
   width: 100%;
@@ -2361,11 +2089,9 @@ ul.task-list ul.menu-list li a:hover {
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 243, ../scss/_popup.scss */
 .select {
   position: relative;
 }
-/* line 246, ../scss/_popup.scss */
 .select .cusel {
   padding: 0 30px 0 20px;
   height: 40px;
@@ -2379,13 +2105,11 @@ ul.task-list ul.menu-list li a:hover {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 255, ../scss/_popup.scss */
 .select .cusel .cuselFrameRight {
   position: absolute;
   right: 17px;
   top: 17px;
 }
-/* line 261, ../scss/_popup.scss */
 .select .cusel .cuselText {
   line-height: 40px;
   height: 40px;
@@ -2395,12 +2119,10 @@ ul.task-list ul.menu-list li a:hover {
   color: #acacac;
 }
 
-/* line 274, ../scss/_popup.scss */
 #cuselBox {
   z-index: 1000;
   position: absolute !important;
 }
-/* line 278, ../scss/_popup.scss */
 #cuselBox .cuselItem {
   width: 100%;
   padding: 5px 20px;
@@ -2408,22 +2130,18 @@ ul.task-list ul.menu-list li a:hover {
   background: white;
 }
 
-/* line 287, ../scss/_popup.scss */
 .s-395 {
   width: 395px;
 }
 
-/* line 291, ../scss/_popup.scss */
 .s-355 {
   width: 355px;
 }
 
-/* line 294, ../scss/_popup.scss */
 .s-200 {
   width: 200px;
 }
 
-/* line 298, ../scss/_popup.scss */
 .r-text {
   color: #666666;
   font-weight: 700;
@@ -2432,11 +2150,9 @@ ul.task-list ul.menu-list li a:hover {
   line-height: 40px;
 }
 
-/* line 308, ../scss/_popup.scss */
 .mail-part {
   width: 245px;
 }
-/* line 311, ../scss/_popup.scss */
 .mail-part span {
   display: inline-block;
   font-size: 1.167em;
@@ -2449,35 +2165,29 @@ ul.task-list ul.menu-list li a:hover {
   overflow: hidden;
   padding-right: 15px;
 }
-/* line 325, ../scss/_popup.scss */
 .mail-part .icon-trash {
   display: inline-block;
   position: relative;
   top: -12px;
 }
 
-/* line 331, ../scss/_popup.scss */
 .w-m {
   margin-bottom: 10px;
 }
 
-/* line 335, ../scss/_popup.scss */
 .settings-popup .popup-inner .popup-body .form-part {
   padding-bottom: 15px;
 }
-/* line 337, ../scss/_popup.scss */
 .settings-popup .popup-inner .popup-body .form-part > label {
   line-height: 1em;
   padding-bottom: 10px;
 }
-/* line 342, ../scss/_popup.scss */
 .settings-popup .popup-inner .popup-body .form-part .note {
   font-family: "Open Sans", Helvetica, sans-serif;
   color: #969696;
   padding-top: 2px;
 }
 
-/* line 352, ../scss/_popup.scss */
 .ava-block {
   border: 1px solid #b2b2b2;
   -webkit-border-radius: 3px;
@@ -2489,7 +2199,6 @@ ul.task-list ul.menu-list li a:hover {
   padding: 4px;
   margin: 24px 0  9px;
 }
-/* line 359, ../scss/_popup.scss */
 .ava-block img {
   display: block;
   -webkit-border-radius: 2px;
@@ -2498,7 +2207,6 @@ ul.task-list ul.menu-list li a:hover {
   -o-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 364, ../scss/_popup.scss */
 .ava-block + .button {
   width: 122px;
 }

@@ -125,7 +125,34 @@ jQuery(document).ready(function(){
 		$(this).height(blockHeight);	
 	});
 	
+	//for hide/show subtask
+	$('[data-sub]').each(function(){
+		var button = $(this);
+		var child = $(this).parent().parent().next();
+		var parent = $(this).parents(".with-child");
+		
+		button.on('click', function(){
+			button.toggleClass('plus');
+			button.toggleClass('minus')
+			parent.toggleClass('open');
+			child.slideToggle();
+		})
+		
+	});
 	
+	
+	//for hide/show subnote
+	$('[data-note]').each(function(){
+		var button = $(this);
+		var child = $(this).parent().next();
+		var parent = $(this).parent().parent();
+		
+		button.on('click', function(){
+			parent.toggleClass('open');
+			child.slideToggle();
+		})
+		
+	});
 });
 
 function popup(popupLink){

@@ -197,10 +197,10 @@
 											<a href="#" class="icon-drag"></a>
 										</div>
 									</li>
-									<li class="sub-0 wsc_task_selected with-child open">
+									<li class="sub-0 wsc_task_selected with-child">
 										<div class="wsc_task clearfix">
 											<div class="task-b-1 left">
-												<span class="minus"></span>
+												<span class="plus" data-sub="true"></span>
 											</div>
 											<div class="task-b-2">
 												<div class="t-name">
@@ -302,7 +302,7 @@
 											</div>
 											<a href="#" class="icon-drag"></a>
 										</div>
-										<ul>
+										<ul data-sub="sub" class="sub-task">
 											<li class="sub-1 sub-li">
 												<div class="wsc_task clearfix">
 													<div class="task-b-1 left">
@@ -345,10 +345,10 @@
 													<a href="#" class="icon-drag"></a>
 												</div>
 											</li>
-											<li class="sub-1 with-child open sub-li">
+											<li class="sub-1 with-child sub-li">
 												<div class="wsc_task clearfix">
 													<div class="task-b-1 left">
-														<span class="minus"></span>
+														<span class="plus" data-sub="true"></span>
 													</div>
 													<div class="task-b-2 wsc_task_content ">
 														<div class="t-name">
@@ -386,7 +386,7 @@
 													</div>
 													<a href="#" class="icon-drag"></a>
 												</div>
-												<ul>
+												<ul class="sub-task">
 													<li class="sub-2 sub-li">
 														<div class="wsc_task clearfix">
 															<div class="task-b-1 left">
@@ -475,10 +475,10 @@
 											</li>
 										</ul>
 									</li>
-									<li class="sub-0 with-child">
+									<li class="sub-0">
 										<div class="wsc_task clearfix">
 											<div class="task-b-1 left">
-												<span class="plus"></span>
+												<span></span>
 											</div>
 											<div class="task-b-2">
 												<div class="t-name">
@@ -577,7 +577,7 @@
 											<a href="#" class="icon-drag"></a>
 										</div>
 									</li>
-									<li class="sub-0 with-child">
+									<li class="sub-0">
 										<div class="wsc_note">
 											<span class="status"></span>
 											<p>все в принципе тоже самое, что и с тасками, кроме того, что у них нет заголовка, и более простая область настроек справа.</p>
@@ -588,9 +588,9 @@
 											<a href="#" class="icon-drag"></a>
 										</div>
 									</li>
-									<li class="sub-0 with-child open wsc_task_selected">
+									<li class="sub-0 with-child wsc_task_selected">
 										<div class="wsc_note">
-											<span class="status"></span>
+											<span class="status" data-note="true"></span>
 											<p>все в принципе тоже самое, что и с тасками, кроме того, что у них нет заголовка, и более простая область настроек справа.</p>
 											<div class="tools-block">
 												<a href="#" class="icon-tool"></a>
@@ -598,7 +598,7 @@
 											</div>
 											<a href="#" class="icon-drag"></a>
 										</div>
-										<ul>
+										<ul class="sub-note">
 											<li class="sub-1">
 												<div class="wsc_note">
 													<span class="status"></span>
@@ -610,20 +610,55 @@
 													<a href="#" class="icon-drag"></a>
 												</div>
 											</li>
-											<li class="sub-2 with-child open">
+											<li class="sub-2 with-child">
 												<div class="wsc_note">
-													<span class="status"></span>
+													<span class="status" data-note="true"></span>
 													<p>все в принципе тоже самое, что и с тасками, кроме того, что у них нет заголовка, и более простая область настроек справа.</p>
 													<p>все в принципе тоже самое, что и с тасками, кроме того, что у них нет заголовка, и более простая область настроек справа.</p>
-													<p>все в принципе тоже самое, что и с тасками, кроме того, что у них нет заголовка, и более простая область настроек справа.</p>
+													<p>все в принципе тоже самое, что и с тасками, кроме того, что у них нет заголовка, и более простая область настроек справа.<span class="flag-5 flag">+ add comment</span></p>
 													<div class="tools-block">
 														<a href="#" class="icon-tool"></a>
 														<a href="#" class="icon-trash"></a>													
 													</div>
 													<a href="#" class="icon-drag"></a>
+													<div class="comment-block">
+														<div class="comment-part">
+															<div class="border-c">
+																<div class="avatar-block left">
+																	<img src="trash/ava-30-30-2.jpg" alt=""/>
+																</div>
+																<div class="comment-t">
+																	<p>Первый комментарий - автор слева</p>
+																	<a href="#" class="icon-cls-c"></a>
+																</div>
+															</div>
+														</div>
+														<div class="comment-part">
+															<div class="border-c">
+																<div class="avatar-block left">
+																	<img src="trash/ava-30-30-2.jpg" alt=""/>
+																</div>
+																<div class="comment-t">
+																	<p>Первый комментарий - автор слева</p>
+																	<a href="#" class="icon-cls-c"></a>
+																</div>
+															</div>
+															<div class="sub-com">
+																<div class="border-c">
+																	<div class="avatar-block left">
+																		<img src="trash/ava-30-30-2.jpg" alt=""/>
+																	</div>
+																	<div class="comment-t">
+																		<p>Первый комментарий - автор слева</p>
+																		<a href="#" class="icon-cls-c"></a>
+																	</div>
+																</div>																
+															</div>
+														</div>
+													</div>
 												</div>
-												<ul>
-													<li class="sub-2 with-child">
+												<ul class="sub-note">
+													<li class="sub-2">
 														<div class="wsc_note">
 															<span class="status"></span>
 															<p>все в принципе тоже самое, что и с тасками, кроме того, что у них нет заголовка, и более простая область настроек справа.</p>
@@ -691,6 +726,9 @@
 										</li>
 									</ul>
 									<!--span class="name-hide">Antony Trimber</span-->
+								</li>
+								<li>
+									<a href="#" class="icon-comment"  data-trigger="true"></a>
 								</li>
 								<li>
 									<a href="#" class="icon-download"  data-trigger="true"></a>

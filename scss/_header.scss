@@ -3,6 +3,7 @@ header#header{
   position: relative;
   height: $height-header;
   border-bottom: 2px solid $border-header;
+  background: $bg-header-t;
   @include gradient($bg-header-t, $bg-header-b);
   
   &:after, &:before{
