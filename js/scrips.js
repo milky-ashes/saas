@@ -135,7 +135,7 @@ jQuery(document).ready(function(){
 			button.toggleClass('plus');
 			button.toggleClass('minus')
 			parent.toggleClass('open');
-			child.slideToggle();
+			child.slideToggle(0);
 		})
 		
 	});
