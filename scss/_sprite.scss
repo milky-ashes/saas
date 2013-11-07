@@ -70,7 +70,7 @@ a.icon-tool{
 .task-b-1 span{
   &.minus:after{
     @include icon-sprite(minus);
-    top: 7px;
+    top: 4px;
   }
   &.plus:after{
     @include icon-sprite(plus);

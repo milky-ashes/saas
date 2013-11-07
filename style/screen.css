@@ -92,7 +92,7 @@ a.add-link:before {
 }
 
 .icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow-s, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-close, .icon-cls-c, .icon-cls-p, .icon-com-s, .icon-com, .icon-comment-h, .icon-comment, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-drag, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .task-b-1 span.check:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a.icon-comment.active, a span.all:after, a.icon-people.active, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash, .mail-part .icon-trash, .cuselFrameRight, .flag-4:before, .sub-com:before {
-  background: url('../img/icon-s157cb2193f.png') no-repeat;
+  background: url('../img/icon-se2cb39f681.png') no-repeat;
 }
 
 .icon-all {
@@ -102,7 +102,7 @@ a.add-link:before {
 }
 
 .icon-arrow-d {
-  background-position: -8px -14px;
+  background-position: 0 -28px;
   height: 5px;
   width: 8px;
 }
@@ -120,7 +120,7 @@ a.add-link:before {
 }
 
 .icon-arrow {
-  background-position: 0 -28px;
+  background-position: 0 -14px;
   height: 3px;
   width: 8px;
 }
@@ -240,7 +240,7 @@ a.add-link:before {
 }
 
 .icon-drag {
-  background-position: -46px -56px;
+  background-position: -68px -56px;
   height: 30px;
   width: 26px;
 }
@@ -270,8 +270,8 @@ a.add-link:before {
 }
 
 .icon-minus {
-  background-position: 0 -14px;
-  height: 2px;
+  background-position: -8px -14px;
+  height: 6px;
   width: 8px;
 }
 
@@ -318,15 +318,15 @@ a.add-link:before {
 }
 
 .icon-tab-a {
-  background-position: -93px -56px;
+  background-position: -94px -56px;
   height: 30px;
   width: 20px;
 }
 
 .icon-tab {
-  background-position: -72px -56px;
-  height: 30px;
-  width: 21px;
+  background-position: -46px -56px;
+  height: 29px;
+  width: 22px;
 }
 
 .icon-task-b-a {
@@ -384,7 +384,7 @@ a.add-link:before {
 }
 
 a.enter-top:after {
-  background-position: -8px -14px;
+  background-position: 0 -28px;
   height: 5px;
   width: 8px;
 }
@@ -401,7 +401,7 @@ a.tabs-link.t-link:before {
   width: 12px;
 }
 a.tabs-link.t-link:after {
-  background-position: -93px -56px;
+  background-position: -94px -56px;
   height: 30px;
   width: 20px;
 }
@@ -411,9 +411,9 @@ a.tabs-link.n-link:before {
   width: 14px;
 }
 a.tabs-link.n-link:after {
-  background-position: -72px -56px;
-  height: 30px;
-  width: 21px;
+  background-position: -46px -56px;
+  height: 29px;
+  width: 22px;
 }
 
 a.add-link.add-t:before {
@@ -428,7 +428,7 @@ a.add-link.add-n:before {
 }
 
 .user-block:after {
-  background-position: 0 -28px;
+  background-position: 0 -14px;
   height: 3px;
   width: 8px;
 }
@@ -457,10 +457,10 @@ a.icon-tool:hover {
 }
 
 .task-b-1 span.minus:after {
-  background-position: 0 -14px;
-  height: 2px;
+  background-position: -8px -14px;
+  height: 6px;
   width: 8px;
-  top: 7px;
+  top: 4px;
 }
 .task-b-1 span.plus:after {
   background-position: -57px -14px;
@@ -572,8 +572,8 @@ a.icon-people.active {
   top: 13px;
 }
 .notes-list li.with-child.open > .wsc_note .status {
-  background-position: 0 -14px;
-  height: 2px;
+  background-position: -8px -14px;
+  height: 6px;
   width: 8px;
   top: 16px;
 }
@@ -1223,12 +1223,21 @@ ul.task-list li .wsc_task .task-b-3 .user-block a:last-child {
 ul.task-list li .wsc_task .task-b-3 .time-block {
   padding: 0 20px;
   margin: 0 -7px;
-  color: #b5b5b5;
-  font-family: "Open Sans", Helvetica, sans-serif;
-  font-size: 1.667em;
   position: relative;
   padding-top: 6px;
   z-index: 10;
+}
+ul.task-list li .wsc_task .task-b-3 .time-block input {
+  border: 0;
+  background: 0;
+  color: #b5b5b5;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.667em;
+  display: inline-block;
+  height: 50px;
+  position: relative;
+  top: -17px;
+  width: 50px;
 }
 ul.task-list li .wsc_task .task-b-3 .time-block a {
   display: none;
@@ -1256,7 +1265,7 @@ ul.task-list li .wsc_task .task-b-3 .time-block a {
 }
 ul.task-list li .wsc_task .task-b-3 .time-block a.minus {
   left: 3px;
-  line-height: 8px;
+  line-height: 6px;
 }
 ul.task-list li .wsc_task .task-b-3 .time-block a.plus {
   right: 3px;
@@ -1268,6 +1277,11 @@ ul.task-list li .wsc_task .task-b-3 a.icon-tool {
 ul.task-list li .wsc_task .task-b-3.active .user-block, ul.task-list li .wsc_task .task-b-3.active .tools-block {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
   opacity: 0.1;
+  -webkit-transition: all 0.3s ease-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
 }
 ul.task-list li .wsc_task .task-b-3.active .time-block a {
   display: block;
@@ -1474,6 +1488,9 @@ ul.task-list ul.menu-list li a:hover {
   -moz-box-shadow: 0 0 0 3px #f9f9f9;
   box-shadow: 0 0 0 3px #f9f9f9;
 }
+.wsc_task_selected .task-b-1 span.plus, .wsc_task_selected .task-b-1 span.minus {
+  cursor: pointer;
+}
 
 .closed .task-b-1 span {
   border-color: rgba(42, 156, 133, 0.25);
@@ -1618,6 +1635,10 @@ ul.task-list ul.menu-list li a:hover {
 
 .notes-tab .tab-footer {
   background: #fef9d5;
+}
+
+.with-child .status {
+  cursor: pointer;
 }
 
 .r-menu {
@@ -1822,6 +1843,7 @@ ul.task-list ul.menu-list li a:hover {
   position: fixed;
   right: 20px;
   bottom: 40px;
+  z-index: 50;
 }
 .mess-block ul {
   width: 220px;
@@ -2209,4 +2231,20 @@ ul.task-list ul.menu-list li a:hover {
 }
 .ava-block + .button {
   width: 122px;
+}
+
+.login-page {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(../img/bg.jpg) 50% 50% transparent no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.login-page .login-popup {
+  display: block;
 }

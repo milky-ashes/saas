@@ -158,14 +158,25 @@ ul.task-list{
         .time-block{
           padding: 0 20px;
           margin: 0 -7px;
-          color: $color-time;
-          font:{
-            family: $font-osans;
-            size: $font-20;
-          }
+          
           position: relative;
           padding-top: 6px;
           z-index: 10;
+          
+          input{
+            border: 0;
+            background: 0;
+            color: $color-time;
+            font:{
+              family: $font-osans;
+              size: $font-20;
+            }
+            display: inline-block;
+             height: 50px;
+              position: relative;
+              top: -17px;
+              width: 50px;
+          }
           
            a{
              display:none;
@@ -189,7 +200,7 @@ ul.task-list{
              
              &.minus{
                left: 3px;
-               line-height: 8px;
+               line-height: 6px;
              }
              
              &.plus{
@@ -206,6 +217,7 @@ ul.task-list{
         &.active{
           .user-block, .tools-block{
             @include opacity(0.1);
+            @include transition(all .3s ease-out 0s);
           }
           
           .time-block{            
@@ -436,6 +448,9 @@ ul.task-list{
   span{
     background: $bg-tabs-a-d;
     @include box-shadow(0 0 0 3px $bg-tabs-a-d);
+    &.plus, &.minus{
+      cursor: pointer;
+    }
   }
 }
 
