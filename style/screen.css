@@ -91,7 +91,7 @@ a.add-link:before {
   position: absolute;
 }
 
-.icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow-s, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-close, .icon-cls-c, .icon-cls-p, .icon-com-s, .icon-com, .icon-comment-h, .icon-comment, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-drag, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .task-b-1 span.check:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a.icon-comment.active, a span.all:after, a.icon-people.active, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash, .mail-part .icon-trash, .cuselFrameRight, .flag-4:before, .sub-com:before {
+.icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow-s, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-close, .icon-cls-c, .icon-cls-p, .icon-com-s, .icon-com, .icon-comment-h, .icon-comment, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-drag, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .task-b-1 span.check:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a.icon-comment.active, a span.all:after, a.icon-people.active, .comment-part.with-child .status, .comment-part.with-child.open > .status, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash, .mail-part .icon-trash, .cuselFrameRight, .flag-4:before {
   background: url('../img/icon-se2cb39f681.png') no-repeat;
 }
 
@@ -560,6 +560,17 @@ a.icon-people.active {
   width: 14px;
 }
 
+.comment-part.with-child .status {
+  background-position: -57px -14px;
+  height: 8px;
+  width: 8px;
+}
+.comment-part.with-child.open > .status {
+  background-position: -8px -14px;
+  height: 6px;
+  width: 8px;
+}
+
 .notes-list li .status {
   background-position: -22px -14px;
   height: 6px;
@@ -599,12 +610,6 @@ a.icon-people.active {
   background-position: -34px -14px;
   height: 7px;
   width: 9px;
-}
-
-.sub-com:before {
-  background-position: -65px -14px;
-  height: 8px;
-  width: 8px;
 }
 
 * {
@@ -859,8 +864,16 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
 }
 
 .project-zone {
-  background: url(../img/project-bg.jpg) 50% 0 transparent no-repeat;
   height: 84px;
+  position: relative;
+}
+.project-zone .project-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 84px;
+  z-index: -1;
 }
 .project-zone .project-name {
   padding-top: 30px;
@@ -1116,7 +1129,6 @@ ul.task-list ul {
   position: relative;
 }
 ul.task-list li {
-  min-height: 62px;
   position: relative;
 }
 ul.task-list li:before {
@@ -1138,6 +1150,7 @@ ul.task-list li .wsc_task {
 ul.task-list li .wsc_task .task-b-2 {
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
+  min-height: 72px;
   background: #f7f7f7;
   padding: 13px 15px;
   margin: 0 190px 0 35px;
@@ -1403,7 +1416,6 @@ ul.task-list ul.menu-list li {
   display: block;
   position: relative;
   background: #2f373c;
-  min-height: 41px;
 }
 ul.task-list ul.menu-list li:first-child {
   -webkit-border-radius: 2px 2px 0 0;
@@ -1460,7 +1472,6 @@ ul.task-list ul.menu-list li a:hover {
 .task-b-1 {
   position: relative;
   width: 35px;
-  min-height: 62px;
 }
 .task-b-1 span {
   width: 16px;
@@ -1501,12 +1512,14 @@ ul.task-list ul.menu-list li a:hover {
 }
 
 .comment-block {
-  padding: 25px 10px 0 20px;
+  padding: 25px 10px 0 0px;
 }
 .comment-block .comment-part {
   padding-bottom: 10px;
   min-height: 30px;
   overflow: hidden;
+  position: relative;
+  padding-left: 20px;
 }
 .comment-block .comment-part .comment-t {
   background: #f9f9f9;
@@ -1525,18 +1538,19 @@ ul.task-list ul.menu-list li a:hover {
   right: 10px;
   display: block;
 }
-.comment-block .sub-com {
-  clear: both;
-  margin-left: 37px;
-  padding-top: 10px;
-  position: relative;
-}
-.comment-block .sub-com:before {
+.comment-block .comment-part .status {
   display: block;
   position: absolute;
-  left: -20px;
-  top: 17px;
-  content: "";
+  top: 11px;
+  left: 7px;
+  z-index: 5;
+}
+.comment-block .sub-com {
+  clear: both;
+  margin-left: 17px;
+  padding-top: 10px;
+  position: relative;
+  display: none;
 }
 
 .notes-tab .comment-block {

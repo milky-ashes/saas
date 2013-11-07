@@ -1,6 +1,15 @@
 .project-zone{
-  background: url(../img/project-bg.jpg) 50% 0 transparent no-repeat;
   height: $height-project;
+  position: relative;
+  
+  .project-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $height-project;
+    z-index: -1;
+  }
   
   .project-name{  
     padding-top: 30px;

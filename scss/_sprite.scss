@@ -140,6 +140,20 @@ a.icon-people.active{
   @include icon-sprite(people-g);
 }
 
+.comment-part{ 
+  
+    &.with-child{
+      .status{
+        @include icon-sprite(plus);
+      }
+      
+      &.open > .status{
+        @include icon-sprite(minus);
+      }
+    }
+ 
+}
+
 .notes-list li{
   
   .status{
@@ -179,9 +193,5 @@ a.icon-people.active{
 
 .flag-4:before{
   @include icon-sprite(com);
-}
-
-.sub-com:before{
-  @include icon-sprite(com-s);
 }
 

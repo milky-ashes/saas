@@ -36,7 +36,6 @@ ul.task-list{
   }
   
   li{
-    min-height: 62px;
     position: relative;
     
     &:before{
@@ -61,6 +60,7 @@ ul.task-list{
           left: 1px solid $border-tab; 
           right: 1px solid $border-tab; 
         }
+        min-height: 72px;
         background: $bg-tabs;
         padding: 13px 15px;
         margin: 0 190px 0 35px;
@@ -360,7 +360,6 @@ ul.task-list{
           display: block;
           position: relative;
           background: #2f373c;
-          min-height: 41px;
           &:first-child{
              @include border-radius(2px 2px 0 0);
           }
@@ -420,7 +419,6 @@ ul.task-list{
 .task-b-1{
   position: relative;
   width: 35px;
-  min-height: 62px;
   
   span{
     width: 16px;

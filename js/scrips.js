@@ -118,12 +118,13 @@ jQuery(document).ready(function(){
 		cuSel(params);
 	});
 	
-
-	$('.task-b-1').each(function(){
-		var blockHeight = $(this).parent().height();
-
-		$(this).height(blockHeight);	
-	});
+	setInterval(function(){
+		$('.task-b-1').each(function(){
+			var blockHeight = $(this).next().outerHeight();
+	
+			$(this).height(blockHeight);	
+		});
+	}, 200);
 	
 	//for hide/show subtask
 	$('[data-sub]').each(function(){
@@ -149,7 +150,20 @@ jQuery(document).ready(function(){
 		
 		button.on('click', function(){
 			parent.toggleClass('open');
-			child.slideToggle();
+			child.slideToggle(0);
+		})
+		
+	});
+	
+	//for hide/show comments
+	$('[data-comments]').each(function(){
+		var button = $(this);
+		var child = $(this).parent().children(".sub-com");
+		var parent = $(this).parent();
+		
+		button.on('click', function(){
+			parent.toggleClass('open');
+			child.slideToggle(0);
 		})
 		
 	});
