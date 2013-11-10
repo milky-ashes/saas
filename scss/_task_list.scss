@@ -2,31 +2,6 @@ ul.task-list{
   
   >li{
     background: $bg-tab-d;
-    
-    &.closed{      
-      
-      &:after{
-        display: block;
-        width: 35px;
-        height: 100%;
-        background: #90d2c5;
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: 0;
-        content: "";
-        @include opacity(0.5);
-      }
-      
-      .task-b-2{
-        @include opacity(0.5);
-      }
-      .task-b-3{
-        .user-block, .time-block{
-          @include opacity(0.5);
-        }
-      }
-    }
   }
   
   ul{
@@ -55,30 +30,33 @@ ul.task-list{
     
     .wsc_task{
       position: relative;
+      width: 100%;
+      @include box-sizing(content-box);
+      padding-right: 30px;
+      
       .task-b-2{
         border:{
           left: 1px solid $border-tab; 
           right: 1px solid $border-tab; 
         }
-        min-height: 72px;
+        min-height: 55px;
         background: $bg-tabs;
-        padding: 13px 15px;
+        padding: 8px 10px;
         margin: 0 190px 0 35px;
         
         .t-name{          
           color: $color-name;
           padding-bottom: 5px;
           
-          span{
-            
-            
-            &.name{
-              margin-right: 18px;
-              font:{
-                size: $font-13;
-              }
+          .name{
+            margin-right: 18px;
+            font:{
+              size: $font-13;
             }
-                        
+            display: inline;
+          }
+          
+          span{                        
             &.flag{
               @include border-radius(2px);
               padding: 0 3px;
@@ -126,9 +104,9 @@ ul.task-list{
       
       .task-b-3{
         width: 188px;
-        padding: 16px 0 0 14px;
+        padding: 11px 0 0 14px;
         position: absolute;
-        right: 0;
+        right: 30px;
         top: 0;
         
         .user-block{
@@ -212,6 +190,8 @@ ul.task-list{
         a.icon-tool{
           display: block;
           margin-top: 7px;
+          position: relative;
+          z-index: 20;
         }
         
         &.active{
@@ -256,6 +236,14 @@ ul.task-list{
           background: $bg-tabs-a-d;
           content: "";
           z-index: 5;
+        }
+      }
+      
+      .closed{
+        .wsc_task{
+           &:before{
+            display: none;
+          }
         }
       }
         > .task-b-1{
@@ -316,7 +304,7 @@ ul.task-list{
           
           span:before{
             display: block;
-            width: 20px;
+            width: 21px;
             height: 1px;
             border-bottom: 1px dotted #c9c9c9;
             position: absolute;
@@ -327,6 +315,35 @@ ul.task-list{
             z-index: 1;
           }
         } 
+    }
+    
+    &.closed{      
+      
+      &:after{
+        display: block;
+        width: 35px;
+        height: 100%;
+        background: #90d2c5;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        content: "";
+        @include opacity(0.5);
+      }
+      
+      .task-b-2{
+        @include opacity(0.5);
+      }
+      .task-b-3{
+        .user-block, .time-block{
+          @include opacity(0.5);
+        }
+      }
+      
+      span{
+        background-color: transparent;
+      }
     }
   }
    ul.menu-list{
@@ -427,7 +444,7 @@ ul.task-list{
     border-radius: 2px;
     display: block;
     position: absolute;
-    top: 23px;
+    top: 18px;
     left: 50%;
     margin-left: -8px;
     z-index: 10;
@@ -455,6 +472,7 @@ ul.task-list{
 .closed .task-b-1{
   span{
     border-color: rgba(42,156,133,0.25);
+    @include box-shadow(none);
   }
 }
 

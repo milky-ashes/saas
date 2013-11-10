@@ -5,6 +5,11 @@ header#header{
   border-bottom: 2px solid $border-header;
   background: $bg-header-t;
   @include gradient($bg-header-t, $bg-header-b);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
   
   &:after, &:before{
     display: block;

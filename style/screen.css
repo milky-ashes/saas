@@ -91,7 +91,7 @@ a.add-link:before {
   position: absolute;
 }
 
-.icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow-s, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-close, .icon-cls-c, .icon-cls-p, .icon-com-s, .icon-com, .icon-comment-h, .icon-comment, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-drag, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .task-b-1 span.check:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a.icon-comment.active, a span.all:after, a.icon-people.active, .comment-part.with-child .status, .comment-part.with-child.open > .status, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash, .mail-part .icon-trash, .cuselFrameRight, .flag-4:before {
+.icon-sprite, .icon-all, .icon-arrow-d, .icon-arrow-p, .icon-arrow-s, .icon-arrow, .icon-check-g, .icon-check-w, .icon-clock, .icon-close, .icon-cls-c, .icon-cls-p, .icon-com-s, .icon-com, .icon-comment-h, .icon-comment, .icon-d-1-1, .icon-d-1-2, .icon-d-1-3, .icon-d-1-4, .icon-d-1-5, .icon-d-1-6, .icon-dot, .icon-download-a, .icon-download, .icon-drag, .icon-eye-g, .icon-eye, .icon-i-1, .icon-logo, .icon-minus, .icon-note-b-a, .icon-note-b, .icon-note-s, .icon-people-g, .icon-people, .icon-plus, .icon-search, .icon-tab-a, .icon-tab, .icon-task-b-a, .icon-task-b, .icon-task-s, .icon-tool-1, .icon-tool-2, .icon-tool-3, .icon-tool, .icon-trash-l, .icon-trash, a.enter-top:after, a.project-top:after, a.tabs-link.t-link:before, a.tabs-link.t-link:after, a.tabs-link.n-link:before, a.tabs-link.n-link:after, a.add-link.add-t:before, a.add-link.add-n:before, .user-block:after, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool, ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover, ul.task-list li.wsc_task_selected .closed .task-b-3 a.icon-tool, a.icon-tool:hover, .closed a.icon-tool, .task-b-1 span.minus:after, .task-b-1 span.plus:after, .closed .task-b-1 span.check:after, ul.menu-list li a.item-1:before, ul.menu-list li a.item-2:before, ul.menu-list li a.item-3:before, ul.menu-list li a.item-4:before, ul.menu-list li a.item-5:before, ul.menu-list li a.item-6:before, ul.menu-list li a.item-7:before, ul.menu-list li a.item-8:before, ul.menu-list li a.item-9:before, a.icon-eye.active, a.icon-download.active, a.icon-comment.active, a span.all:after, a.icon-people.active, .comment-part.with-child .status, .comment-part.with-child.open > .status, .notes-list li .status, .notes-list li.with-child > .wsc_note .status, .notes-list li.with-child.open > .wsc_note .status, .notes-list li .icon-trash, .mail-part .icon-trash, .cuselFrameRight, .flag-4:before {
   background: url('../img/icon-se2cb39f681.png') no-repeat;
 }
 
@@ -443,6 +443,11 @@ ul.task-list li.wsc_task_selected .wsc_task .task-b-3 a.icon-tool:hover {
   height: 14px;
   width: 14px;
 }
+ul.task-list li.wsc_task_selected .closed .task-b-3 a.icon-tool {
+  background-position: -66px -42px;
+  height: 14px;
+  width: 14px;
+}
 
 a.icon-tool:hover {
   background-position: -92px -28px;
@@ -467,18 +472,13 @@ a.icon-tool:hover {
   height: 8px;
   width: 8px;
 }
-.task-b-1 span.check:after {
-  background-position: -14px -56px;
-  height: 10px;
-  width: 10px;
-  top: 2px;
-  left: 2px;
-}
 
 .closed .task-b-1 span.check:after {
   background-position: 0 -42px;
   height: 10px;
   width: 10px;
+  top: 2px;
+  left: 2px;
 }
 
 ul.menu-list li a.item-1:before {
@@ -694,6 +694,11 @@ header#header {
   background: -o-linear-gradient(#3d464c, #313a3f);
   background: -ms-linear-gradient(#3d464c, #313a3f);
   background: linear-gradient(#3d464c, #313a3f);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 header#header:after, header#header:before {
   display: block;
@@ -866,6 +871,7 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
 .project-zone {
   height: 84px;
   position: relative;
+  margin-top: 50px;
 }
 .project-zone .project-bg {
   position: absolute;
@@ -1089,7 +1095,7 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
 .wsc_task a.icon-drag, .wsc_note a.icon-drag {
   display: block;
   position: absolute;
-  right: -26px;
+  right: 0px;
   top: 10px;
   display: none;
 }
@@ -1099,31 +1105,11 @@ header#header .r-block .enter-block ul.menu-list li a:hover {
 
 .wsc_note a.icon-drag {
   top: 5px;
+  right: 5px;
 }
 
 ul.task-list > li {
   background: #f2f2f2;
-}
-ul.task-list > li.closed:after {
-  display: block;
-  width: 35px;
-  height: 100%;
-  background: #90d2c5;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 0;
-  content: "";
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-}
-ul.task-list > li.closed .task-b-2 {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
-}
-ul.task-list > li.closed .task-b-3 .user-block, ul.task-list > li.closed .task-b-3 .time-block {
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
-  opacity: 0.5;
 }
 ul.task-list ul {
   position: relative;
@@ -1146,22 +1132,28 @@ ul.task-list li:last-child {
 }
 ul.task-list li .wsc_task {
   position: relative;
+  width: 100%;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding-right: 30px;
 }
 ul.task-list li .wsc_task .task-b-2 {
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
-  min-height: 72px;
+  min-height: 55px;
   background: #f7f7f7;
-  padding: 13px 15px;
+  padding: 8px 10px;
   margin: 0 190px 0 35px;
 }
 ul.task-list li .wsc_task .task-b-2 .t-name {
   color: #5c5c5c;
   padding-bottom: 5px;
 }
-ul.task-list li .wsc_task .task-b-2 .t-name span.name {
+ul.task-list li .wsc_task .task-b-2 .t-name .name {
   margin-right: 18px;
   font-size: 1.083em;
+  display: inline;
 }
 ul.task-list li .wsc_task .task-b-2 .t-name span.flag {
   -webkit-border-radius: 2px;
@@ -1204,9 +1196,9 @@ ul.task-list li .wsc_task .task-b-2 .t-name span.flag.flag-4:before {
 }
 ul.task-list li .wsc_task .task-b-3 {
   width: 188px;
-  padding: 16px 0 0 14px;
+  padding: 11px 0 0 14px;
   position: absolute;
-  right: 0;
+  right: 30px;
   top: 0;
 }
 ul.task-list li .wsc_task .task-b-3 .user-block {
@@ -1286,6 +1278,8 @@ ul.task-list li .wsc_task .task-b-3 .time-block a.plus {
 ul.task-list li .wsc_task .task-b-3 a.icon-tool {
   display: block;
   margin-top: 7px;
+  position: relative;
+  z-index: 20;
 }
 ul.task-list li .wsc_task .task-b-3.active .user-block, ul.task-list li .wsc_task .task-b-3.active .tools-block {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=10);
@@ -1321,6 +1315,9 @@ ul.task-list li.open.with-child .wsc_task:before {
   background: #f9f9f9;
   content: "";
   z-index: 5;
+}
+ul.task-list li.open.with-child .closed .wsc_task:before {
+  display: none;
 }
 ul.task-list li.open.with-child > .task-b-1:before {
   display: block;
@@ -1363,7 +1360,7 @@ ul.task-list li.sub-li .task-b-1:before {
 }
 ul.task-list li.sub-li .task-b-1 span:before {
   display: block;
-  width: 20px;
+  width: 21px;
   height: 1px;
   border-bottom: 1px dotted #c9c9c9;
   position: absolute;
@@ -1372,6 +1369,30 @@ ul.task-list li.sub-li .task-b-1 span:before {
   left: -26px;
   content: "";
   z-index: 1;
+}
+ul.task-list li.closed:after {
+  display: block;
+  width: 35px;
+  height: 100%;
+  background: #90d2c5;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  content: "";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+ul.task-list li.closed .task-b-2 {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+ul.task-list li.closed .task-b-3 .user-block, ul.task-list li.closed .task-b-3 .time-block {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+}
+ul.task-list li.closed span {
+  background-color: transparent;
 }
 ul.task-list ul.menu-list {
   position: absolute;
@@ -1480,7 +1501,7 @@ ul.task-list ul.menu-list li a:hover {
   border-radius: 2px;
   display: block;
   position: absolute;
-  top: 23px;
+  top: 18px;
   left: 50%;
   margin-left: -8px;
   z-index: 10;
@@ -1505,6 +1526,9 @@ ul.task-list ul.menu-list li a:hover {
 
 .closed .task-b-1 span {
   border-color: rgba(42, 156, 133, 0.25);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 .sub-task, .sub-note {
@@ -1605,7 +1629,12 @@ ul.task-list ul.menu-list li a:hover {
 .notes-list li .wsc_note {
   padding: 8px 60px 10px 35px;
   position: relative;
-  min-height: 40px;
+  width: 100%;
+  padding: 8px 0 10px 35px;
+  min-height: 22px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
 }
 .notes-list li .wsc_note:before {
   display: block;
@@ -1627,7 +1656,7 @@ ul.task-list ul.menu-list li a:hover {
 }
 .notes-list li .tools-block {
   position: absolute;
-  right: 5px;
+  right: 35px;
   top: 13px;
 }
 .notes-list li .tools-block a {

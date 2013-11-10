@@ -57,7 +57,12 @@ ul.task-list{
       }
     }
   }
+  li.wsc_task_selected .closed  .task-b-3 a.icon-tool{   
+    @include icon-sprite(tool-3);
+  }
 }
+
+
 a.icon-tool{        
   &:hover{
     @include icon-sprite(tool-2);
@@ -75,16 +80,13 @@ a.icon-tool{
   &.plus:after{
     @include icon-sprite(plus);
   }
-  &.check:after{
-    @include icon-sprite(check-g);
-    top: 2px;
-    left: 2px;
-  }
 }
 
 .closed{
   .task-b-1 span.check:after{
     @include icon-sprite(check-w);
+    top: 2px;
+    left: 2px;
   }
 }
 ul.menu-list li a{

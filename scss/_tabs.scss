@@ -88,7 +88,7 @@
   a.icon-drag{
     display: block;
     position: absolute;
-    right: -26px;
+    right: 0px;
     top: 10px;
     display: none;
   }
@@ -102,6 +102,7 @@
 
 .wsc_note{
   a.icon-drag{
-    top: 5px;   
+    top: 5px; 
+    right: 5px;  
   }
 }
