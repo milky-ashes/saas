@@ -65,3 +65,11 @@ body {
 .inner-content{
   position: relative;
 }
+
+.menu-list{
+  opacity: 0;
+  
+  &.visible{
+    opacity: 1;
+  }
+}
