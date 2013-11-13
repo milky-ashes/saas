@@ -62,7 +62,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-  font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-weight: 400;
   font-size: 0.75em;
   line-height: 1.333em;
@@ -72,7 +72,7 @@ body {
 a.add-link {
   line-height: 30px;
   font-size: 0.845em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   padding-left: 10px;
   margin-right: 10px;
   position: relative;
@@ -773,7 +773,7 @@ header#header .r-block .search-block input[type=text] {
   -moz-box-shadow: inset 0 1px 1px #2b3338;
   box-shadow: inset 0 1px 1px #2b3338;
   font-size: 0.845em;
-  font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   color: #f1f1f1;
 }
 header#header .r-block .search-block input[type=text]:-moz-placeholder {
@@ -1714,7 +1714,7 @@ ul.task-list ul.menu-list li a:hover {
   top: 2px;
   margin-right: 10px;
   font-size: 0.833em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   color: #4abba4;
   text-transform: uppercase;
   white-space: nowrap;
@@ -1835,7 +1835,7 @@ ul.task-list ul.menu-list li a:hover {
 }
 .r-menu.fixed {
   position: fixed;
-  top: 10px;
+  top: 60px;
   width: 100%;
   left: 0;
   z-index: 100;
@@ -1855,7 +1855,7 @@ ul.task-list ul.menu-list li a:hover {
   background: #333333;
   border-top: 1px solid #434343;
   font-size: 0.833em;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   color: #999999;
   line-height: 49px;
 }
@@ -1888,7 +1888,7 @@ ul.task-list ul.menu-list li a:hover {
 #footer .footer-menu li a {
   text-transform: uppercase;
   text-decoration: none;
-  font-family: "HelveticaWorld", Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   color: #999999;
 }
 
@@ -1919,7 +1919,7 @@ ul.task-list ul.menu-list li a:hover {
   opacity: 0.95;
   text-decoration: none;
   color: #999999;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   line-height: 2em;
 }
 .mess-block ul li a span.icon-close {

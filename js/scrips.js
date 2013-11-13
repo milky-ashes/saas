@@ -73,8 +73,14 @@ jQuery(document).ready(function(){
 	//for time
     
     $('[data-time]').exists(function(){
-		$(this).hover(function(){
-			$(this).parent().toggleClass("active");
+    	var child = $(this).find('input');
+    	
+		child.mouseenter(function(){
+			$(this).parents('.task-b-3').addClass("active");
+		});
+		
+		$(this).mouseleave(function(){
+			$(this).parents('.task-b-3').removeClass("active");
 		});
 	});
 	
